@@ -40,5 +40,5 @@ x, y, z : Représentent un point d'intérêt dans l'espace tridimensionnel, déc
 ### Procéder au Plot:
     *Transposer les résultats dans un graphique.
     *Observer et analyser la forme résultante de l'Attracteur de Lorenz.
-    
-<img width="154" alt="Capture d'écran 2024-03-08 100949" src="https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160217704/d9e2d46f-fcf9-47e5-b123-e4218e8cd581">
+<img width="408" alt="Capture d'écran 2024-03-08 101251" src="https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160217704/9f66dbfb-3df3-4ccd-874d-316f664cdf3c">
+
