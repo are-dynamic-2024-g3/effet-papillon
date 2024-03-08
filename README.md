@@ -29,14 +29,15 @@ x, y, z : Représentent un point d'intérêt dans l'espace tridimensionnel, déc
 # comment modéliser le phénomène étudié 
 
 ### Définir les Équations du Système Dynamique:
-     Établir les équations fondamentales de Lorenz.
-    Description de la dynamique tridimensionnelle du système.
+     *Établir les équations fondamentales de Lorenz.
+     *Description de la dynamique tridimensionnelle du système.
 ### Définir les Valeurs Initiales:
-    Préciser les conditions de départ pour x, y, et z.
-     rôle majeur dans la trajectoire globale de l'Attracteur.
+    *Préciser les conditions de départ pour x, y, et z.
+    *rôle majeur dans la trajectoire globale de l'Attracteur.
 ### Avancer dans le "Temps":
-    Calculer les dérivées partielles au point actuel.
-     Utiliser ces dérivées pour estimer le point suivant dans l'évolution du système.
+    *Calculer les dérivées partielles au point actuel.
+    *Utiliser ces dérivées pour estimer le point suivant dans l'évolution du système.
 ### Procéder au Plot:
-    Transposer les résultats dans un graphique.
-    Observer et analyser la forme résultante de l'Attracteur de Lorenz.
+    *Transposer les résultats dans un graphique.
+    *Observer et analyser la forme résultante de l'Attracteur de Lorenz.
+    
