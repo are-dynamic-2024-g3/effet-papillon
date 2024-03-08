@@ -32,8 +32,7 @@ x, y, z : Représentent un point d'intérêt dans l'espace tridimensionnel, déc
 
 ### Définir les Équations du Système Dynamique:
      Établir les équations fondamentales de Lorenz.
-    Description de la dynamique tridimensionnelle du 
-système.
+    Description de la dynamique tridimensionnelle du système.
 ### Définir les Valeurs Initiales:
     Préciser les conditions de départ pour x, y, et z.
      rôle majeur dans la trajectoire globale de l'Attracteur.
