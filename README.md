@@ -31,6 +31,6 @@ système.
 ### Avancer dans le "Temps":
     Calculer les dérivées partielles au point actuel.
      Utiliser ces dérivées pour estimer le point suivant dans l'évolution du système.
-## Procéder au Plot:
+### Procéder au Plot:
     Transposer les résultats dans un graphique.
     Observer et analyser la forme résultante de l'Attracteur de Lorenz.
