@@ -16,6 +16,8 @@ Comme système chaotique, prenons un ensemble de boules de billard que l’on vi
 
  ![billard](https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160217704/d2a946f3-61cc-41fe-bf37-532a94e387ea)
 
+ Comme il n’a suffi que d’un tout petit écart au moment de la frappe pour obtenir un résultat totalement différent, on dit que le jeu du billard est un système chaotique.
+
 
 # Equations et éléments à prendre en compte
 
