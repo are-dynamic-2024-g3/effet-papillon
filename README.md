@@ -2,6 +2,7 @@
     Designed by the magnificients Suvana, Madina, Sathursjan
 
 L'effet papillon, ou aussi appelé attracteur de Lorenz, a été decouvert par Edward Lorenz, météorologue et Mathémticiens. Ses recherches sur la théorie du chaos, ont mené à ce phénomène incroyable, qui est basé sur un principe fondamentale, la dependance sensible aux conditions initiales dans un système dynamique non linéaire.
+<img width="680" alt="Capture d'écran 2024-03-08 093158" src="https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160217704/ece84bb6-992d-44f9-a504-b22166f5597d">
 
 # Explication de la théorie du phénomène  
 - Dépendance sensible aux conditions initiales
