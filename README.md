@@ -12,6 +12,11 @@ L'effet papillon, ou aussi appelé attracteur de Lorenz, a été decouvert par E
 
 - Tiré du principe de la théorie du chaos par Edward Lorenz
 
+Comme système chaotique, prenons un ensemble de boules de billard que l’on vient frapper. Même en étant très précis, vous ne pourrez jamais taper exactement au même endroit et avec la même force deux fois de suite. Résultat, vous n’aurez jamais deux parties qui vont se ressembler :
+
+ ![billard](https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160217704/d2a946f3-61cc-41fe-bf37-532a94e387ea)
+
+
 # Equations et éléments à prendre en compte
 
 dx/dt = σ*(y-x)
