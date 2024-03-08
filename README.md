@@ -21,9 +21,7 @@ Comme système chaotique, prenons un ensemble de boules de billard que l’on vi
 
 # Equations et éléments à prendre en compte
 
-dx/dt = σ*(y-x)
-dy/dt = x*(ρ-z)-y
-dz/dt = x*y-β*z
+<img width="273" alt="Capture d'écran 2024-03-08 094334" src="https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160217704/f453ed7e-c933-479c-b1d9-5f996019c8a0">
 
 x, y, z : Représentent un point d'intérêt dans l'espace tridimensionnel, décrivant la position à un moment donné.
 σ, ρ, β : Ces éléments numériques définissent l'attracteur de Lorenz, modulant les trajectoires et influençant la sensibilité aux conditions initiales
