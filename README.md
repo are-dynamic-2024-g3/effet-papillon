@@ -5,19 +5,27 @@ L'effet papillon, ou aussi appelé attracteur de Lorenz, a été decouvert par E
 
 <img width="680" alt="Capture d'écran 2024-03-08 093158" src="https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160217704/ece84bb6-992d-44f9-a504-b22166f5597d">
 
-# Explication de la théorie du phénomène  
-- Dépendance sensible aux conditions initiales
+# Les bases  de la théorie de l’attracteur de Lorenz   
 
-- Conséquences de changement des états initiaux : entraîner de grandes différences dans un état ultérieur
+Il y a trois points qui expliquent clairement les bases qui ont permis a la théorie de l’attracteur de Lorenz d’existé :
 
-- Tiré du principe de la théorie du chaos par Edward Lorenz
+- La dépendances sensible aux conditions initiales
+- La conséquences de changement des états initiaux : entraîner de grandes différences dans un état ultérieur
+- Elle est principalement tiré de la théorie du chaos, crée également par Edward Lorenz
 
-Comme système chaotique, prenons un ensemble de boules de billard que l’on vient frapper. Même en étant très précis, vous ne pourrez jamais taper exactement au même endroit et avec la même force deux fois de suite. Résultat, vous n’aurez jamais deux parties qui vont se ressembler :
+Explication plus précises
+
+Maintenant qu’on a vu les éléments qui servent de base a la théorie de l’attracteur de Lorenz, il faut que vous compreniez réellement ce que c’est ;
+
+L’attracteur de Lorenz, c’est la théorie qu’une simple action, qui paraît être un détail futile, peut avoir de conséquences hors-norme sur le système. Prenons un exemple :
+
+On est ici dans un système dit chaotique, et vous allez comprendre pourquoi. Prenons un ensemble de boule de billard, que l’on vient frapper par une boule de billard, même en étant extrêmement précis, il est impossible que la boule de billard tape exactement au même endroit avec la même force deux fois de suite. Le résultat, donc la conséquences qui va s’en suivre, c’est qu’il n’y aura jamais deux partie qui se ressembleront.
 
  ![billard](https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160217704/d2a946f3-61cc-41fe-bf37-532a94e387ea)
 
  Comme il n’a suffi que d’un tout petit écart au moment de la frappe pour obtenir un résultat totalement différent, on dit que le jeu du billard est un système chaotique.
-
+ 
+ Ici, on a un exemple assez générale de l’attracteur de Lorenz, passons maintenant a une explication plus « scientifique ».
 
 # Equations et éléments à prendre en compte
 
