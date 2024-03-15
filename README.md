@@ -54,3 +54,12 @@ Voici donc les étapes clés qui vont nous permettre de modéliser l'attracteur 
     *Observer et analyser la forme résultante de l'Attracteur de Lorenz.
 <img width="408" alt="Capture d'écran 2024-03-08 101251" src="https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160217704/9f66dbfb-3df3-4ccd-874d-316f664cdf3c">
 
+# Modélisation de l'Attracteur de Lorenz
+
+(Modèle de l'attracteur en version interacti)
+
+Voici donc la modélisation de l'attracteur une fois terminé, nous avons ici les paramètres de bases qui nous permettent d'obtenir la modélisation du fameux "effet papillon", qui est nommé comme ca notamment pour la forme qui fait penser a un papillon.
+
+( image )
+
+Cette modélisation est interactif ! Vous pouvez donc changer les paramètres de bases, et constater par vous meme la fascinante experience de k'attracteur de Lorenz !
