@@ -27,14 +27,18 @@ On est ici dans un système dit chaotique, et vous allez comprendre pourquoi. Pr
  
  Ici, on a un exemple assez générale de l’attracteur de Lorenz, passons maintenant a une explication plus « scientifique ».
 
-# Equations et éléments à prendre en compte
+# Les Equations et éléments à prendre en compte
 
 <img width="273" alt="Capture d'écran 2024-03-08 094334" src="https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160217704/f453ed7e-c933-479c-b1d9-5f996019c8a0">
 
 x, y, z : Représentent un point d'intérêt dans l'espace tridimensionnel, décrivant la position à un moment donné.
 σ, ρ, β : Ces éléments numériques définissent l'attracteur de Lorenz, modulant les trajectoires et influençant la sensibilité aux conditions initiales
 
-# comment modéliser le phénomène étudié 
+Ici, ce qu'il faut comprendre, c'est que dans les équestions données, qui représentent l'attracteur de lorenz, est une forme géometrique complexe, qui représente le comportement "chaotique" d'un système dynamique en trois dimensions. Donc les variables x, y, z, représentent un point d'interet dans l'espace en question, decrivant la position de ce point a un moment donné, et σ, ρ, β, représentent les trajectoires et influence la sensibilité aux conditions initiales, ce sont donc ces éléments la qui vont nous interesser car c'est sur ces variables la, que la conditions initiales se posent, et font qu'on obtient un resultat totalement différent a la fin. Pour vous expliqué cette partie la un peu plus en detail, nous allons la modelisé. 
+
+# Comment modéliser le phénomène étudié 
+
+Voici donc les étapes clés qui vont nous permettre de modéliser l'attracteur de lorenz, elles vous permettront de mieux cerner les paramètres.
 
 ### Définir les Équations du Système Dynamique:
      *Établir les équations fondamentales de Lorenz.
