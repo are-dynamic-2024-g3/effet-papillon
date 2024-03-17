@@ -47,6 +47,7 @@ Voici les étapes clés qui vont nous permettre de modéliser l'attracteur de lo
 ### Définir les Équations du Système Dynamique:
      *Établir les équations fondamentales de Lorenz.
      *Description de la dynamique tridimensionnelle du système.
+![Capture d’écran_17-3-2024_154642_github com](https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160217704/991932ae-b319-41c8-b262-f2f70724cca4)
 
 ### Définir les Valeurs Initiales:
     *Préciser les conditions de départ pour x, y, et z.
