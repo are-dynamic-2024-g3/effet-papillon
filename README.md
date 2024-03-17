@@ -58,8 +58,7 @@ Voici les étapes clés qui vont nous permettre de modéliser l'attracteur de lo
 ### Avancer dans le "Temps":
     *Calculer les dérivées partielles au point actuel.
     *Utiliser ces dérivées pour estimer le point suivant dans l'évolution du système.
-    ![derv](https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160217704/38f82c8c-b83e-43cf-880c-86e8c9d2e24d)
-
+![derv](https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160217704/108989c7-3b70-4173-b40f-d21dfdf7f9ab)
 ### Procéder au Plot:
     *Transposer les résultats dans un graphique.
     *Observer et analyser la forme résultante de l'Attracteur de Lorenz.
