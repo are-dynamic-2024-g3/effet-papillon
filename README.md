@@ -52,7 +52,7 @@ Voici donc les étapes clés qui vont nous permettre de modéliser l'attracteur 
 ### Procéder au Plot:
     *Transposer les résultats dans un graphique.
     *Observer et analyser la forme résultante de l'Attracteur de Lorenz.
-<img width="408" alt="Capture d'écran 2024-03-08 101251" src="https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160217704/9f66dbfb-3df3-4ccd-874d-316f664cdf3c">
+
 
 # Modélisation de l'Attracteur de Lorenz
 
