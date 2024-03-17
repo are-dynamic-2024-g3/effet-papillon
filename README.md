@@ -1,31 +1,31 @@
 # L'EFFET PAPILLON DANS TOUTE SA SPLENDEUR
     Designed by the magnificients Suvana, Madina, Sathursjan
 
-L'effet papillon, ou aussi appelé attracteur de Lorenz, a été decouvert par Edward Lorenz, météorologue et Mathémticien. Certains disent qu'un battement de papillon peut amener à une tornade a plus de 1000 kilomètres. Ses recherches peuvent montrer cela, car celle ci est basé sur un principe fondamentale, la dependance sensible aux conditions initiales dans un système dynamique non linéaire.
+L'effet papillon, ou aussi appelé attracteur de Lorenz, a été decouvert par Edward Lorenz, météorologue et Mathémticien. Certains disent qu'un battement de papillon peut amener à une tornade à plus de 1000 kilomètres. Ses recherches montrent celà, car ces dérnières sont basées sur un principe fondamental, la dépendance sensible aux conditions initiales dans un système dynamique non linéaire.
 
 <img width="680" alt="Capture d'écran 2024-03-08 093158" src="https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160217704/ece84bb6-992d-44f9-a504-b22166f5597d">
 
 # Les bases  de la théorie de l’attracteur de Lorenz   
 
-Il y a trois points qui expliquent clairement les bases qui ont permis a la théorie de l’attracteur de Lorenz d’existé :
+Il y a trois points qui expliquent clairement les bases qui ont permis à la théorie de l’attracteur de Lorenz d’exister :
 
 - La dépendances sensible aux conditions initiales
-- La conséquences de changement des états initiaux : entraîner de grandes différences dans un état ultérieur
-- Elle est principalement tiré de la théorie du chaos, crée également par Edward Lorenz
+- La conséquence des changements des états initiaux : entraîner de grandes différences dans un état ultérieur
+- Principalement tirée de la théorie du chaos, crée également par Edward Lorenz
 
-Explication plus précises
+Explication plus précise :
 
 Maintenant qu’on a vu les éléments qui servent de base a la théorie de l’attracteur de Lorenz, il faut que vous compreniez réellement ce que c’est ;
 
 L’attracteur de Lorenz, c’est la théorie qu’une simple action, qui paraît être un détail futile, peut avoir de conséquences hors-norme sur le système. Prenons un exemple :
 
-On est ici dans un système dit chaotique, et vous allez comprendre pourquoi. Prenons un ensemble de boule de billard, que l’on vient frapper par une boule de billard, même en étant extrêmement précis, il est impossible que la boule de billard tape exactement au même endroit avec la même force deux fois de suite. Le résultat, donc la conséquences qui va s’en suivre, c’est qu’il n’y aura jamais deux partie qui se ressembleront.
+On est ici dans un système dit chaotique, et vous allez comprendre pourquoi. Prenons un ensemble de boule de billard,et que l’on vient frapper une boule de ces boules, même en étant extrêmement précis, il est impossible que la boule de billard tape exactement au même endroit avec la même force deux fois de suite.Ainsi, la conséquence qui va s’en suivre, c’est qu’il n’y aura jamais deux parties qui se ressembleront.
 
  ![billard](https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160217704/d2a946f3-61cc-41fe-bf37-532a94e387ea)
 
  Comme il n’a suffi que d’un tout petit écart au moment de la frappe pour obtenir un résultat totalement différent, on dit que le jeu du billard est un système chaotique.
  
- Ici, on a un exemple assez générale de l’attracteur de Lorenz, passons maintenant a une explication plus « scientifique ».
+ Ici, on a un exemple assez générale de l’attracteur de Lorenz, passons maintenant à une explication plus « scientifique ».
 
 # Les Equations et éléments à prendre en compte
 
@@ -34,11 +34,15 @@ On est ici dans un système dit chaotique, et vous allez comprendre pourquoi. Pr
 x, y, z : Représentent un point d'intérêt dans l'espace tridimensionnel, décrivant la position à un moment donné.
 σ, ρ, β : Ces éléments numériques définissent l'attracteur de Lorenz, modulant les trajectoires et influençant la sensibilité aux conditions initiales
 
-Ici, ce qu'il faut comprendre, c'est que dans les équestions données, qui représentent l'attracteur de lorenz, est une forme géometrique complexe, qui représente le comportement "chaotique" d'un système dynamique en trois dimensions. Donc les variables x, y, z, représentent un point d'interet dans l'espace en question, decrivant la position de ce point a un moment donné, et σ, ρ, β, représentent les trajectoires et influence la sensibilité aux conditions initiales, ce sont donc ces éléments la qui vont nous interesser car c'est sur ces variables la, que la conditions initiales se posent, et font qu'on obtient un resultat totalement différent a la fin. Pour vous expliqué cette partie la un peu plus en detail, nous allons la modeliser. 
+Ici, ce qu'il faut comprendre, c'est que les équations données représentent une forme géometrique complexe de l'attracteur de lorenz, ou plus précisément le comportement "chaotique" d'un système dynamique en trois dimensions.
+Les variables x, y, z, représentent un point d'intérêt dans l'espace en question, décrivant la position de ce point à un moment donné.
+σ, ρ, β, représentent les trajectoires et influencent la sensibilité aux conditions initiales, ce sont donc ces éléments là qui vont nous interesser car c'est selon ces variables , que les conditions initiales se définissent, et font qu'on obtienne des resultats totalement différents à la fin. 
+
+Pour vous expliquer cette partie un peu plus en detail, nous allons la modeliser.
 
 # Comment modéliser le phénomène étudié 
 
-Voici donc les étapes clés qui vont nous permettre de modéliser l'attracteur de lorenz, elles vous permettront de mieux cerner les paramètres.
+Voici les étapes clés qui vont nous permettre de modéliser l'attracteur de lorenz, elles vous permettront de mieux cerner les paramètres.
 
 ### Définir les Équations du Système Dynamique:
      *Établir les équations fondamentales de Lorenz.
@@ -56,7 +60,7 @@ Voici donc les étapes clés qui vont nous permettre de modéliser l'attracteur 
 
 # Modélisation de l'Attracteur de Lorenz
 
-(Modèle de l'attracteur en version interacti)
+(Modèle de l'attracteur en version interactive)
 
 Voici donc la modélisation de l'attracteur une fois terminé, nous avons ici les paramètres de bases qui nous permettent d'obtenir la modélisation du fameux "effet papillon", qui est nommé comme ca notamment pour la forme qui fait penser a un papillon.
 
