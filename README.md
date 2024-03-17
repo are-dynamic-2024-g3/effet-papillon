@@ -52,7 +52,8 @@ Voici les étapes clés qui vont nous permettre de modéliser l'attracteur de lo
 ### Définir les Valeurs Initiales:
     *Préciser les conditions de départ pour x, y, et z.
     *rôle majeur dans la trajectoire globale de l'Attracteur.
-    ![image](https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160217704/10c3eaea-0903-4493-b518-300eda1722d4)
+   ![image](https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160217704/ccc2bfdf-1411-4900-8d22-516ea3c1f93f)
+
 
 ### Avancer dans le "Temps":
     *Calculer les dérivées partielles au point actuel.
