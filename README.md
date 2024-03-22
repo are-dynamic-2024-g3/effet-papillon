@@ -49,6 +49,14 @@ Voici les étapes clés qui vont nous permettre de modéliser l'attracteur de lo
 
 - Établir les équations fondamentales de Lorenz.
 - Description de la dynamique tridimensionnelle du système.
+
+```py
+def lorenz(x, y, z, sigma=10, rho=28, beta=2.667):
+    x_dot = sigma*(y - x)
+    y_dot = rho*x - y - x*z
+    z_dot = x*y - beta*z
+    return x_dot, y_dot, z_dot
+```
      
 ![code1](
 https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160217704/991932ae-b319-41c8-b262-f2f70724cca4)
