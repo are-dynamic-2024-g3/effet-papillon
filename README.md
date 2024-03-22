@@ -73,8 +73,21 @@ xs[0] , y[0] , z[0] = (0.0 , 1.0 , 1.05)
 - Calculer les dérivées partielles au point actuel.
 - Utiliser ces dérivées pour estimer le point suivant dans l'évolution du système.
     
-![code3](
-https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160217704/108989c7-3b70-4173-b40f-d21dfdf7f9ab)
+```py
+dt = 0.01
+num_steps = 2000
+xs = np.empty(num_steps + 1)
+ys = np.empty(num_steps + 1)
+zs = np.empty(num_steps + 1)
+
+
+xs[0], ys[0], zs[0] = (0., 1., 1.05)
+for i in range(num_steps):
+    x_dot, y_dot, z_dot = lorenz(xs[i], ys[i], zs[i])
+    xs[i + 1] = xs[i] + (x_dot * dt)
+    ys[i + 1] = ys[i] + (y_dot * dt)
+    zs[i + 1] = zs[i] + (z_dot * dt)
+```
 
 ### Procéder au Plot:
 
