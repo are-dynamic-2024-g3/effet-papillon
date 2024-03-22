@@ -47,21 +47,26 @@ Voici les étapes clés qui vont nous permettre de modéliser l'attracteur de lo
 ### Définir les Équations du Système Dynamique:
      *Établir les équations fondamentales de Lorenz.
      *Description de la dynamique tridimensionnelle du système.
+     
 ![Capture d’écran_17-3-2024_154642_github com](https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160217704/991932ae-b319-41c8-b262-f2f70724cca4)
 
 ### Définir les Valeurs Initiales:
     *Préciser les conditions de départ pour x, y, et z.
     *rôle majeur dans la trajectoire globale de l'Attracteur.
-   ![image](https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160217704/ccc2bfdf-1411-4900-8d22-516ea3c1f93f)
+   
+![image](https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160217704/ccc2bfdf-1411-4900-8d22-516ea3c1f93f)
 
 
 ### Avancer dans le "Temps":
     *Calculer les dérivées partielles au point actuel.
     *Utiliser ces dérivées pour estimer le point suivant dans l'évolution du système.
+    
 ![derv](https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160217704/108989c7-3b70-4173-b40f-d21dfdf7f9ab)
+
 ### Procéder au Plot:
     *Transposer les résultats dans un graphique.
     *Observer et analyser la forme résultante de l'Attracteur de Lorenz.
+    
 ![Capture d’écran_17-3-2024_161430_github](https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160217704/65b7eced-3b9a-4bc8-ae5b-32c32a163e08)
 
 
