@@ -63,9 +63,9 @@ def lorenz(x, y, z, sigma=10, rho=28, beta=2.667):
 
 - Préciser les conditions de départ pour x, y, et z.
 - rôle majeur dans la trajectoire globale de l'Attracteur.
-   
-![code2](
-https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160217704/ccc2bfdf-1411-4900-8d22-516ea3c1f93f)
+```py
+xs[0] , y[0] , z[0] = (0.0 , 1.0 , 1.05)
+```
 
 
 ### Avancer dans le "Temps":
