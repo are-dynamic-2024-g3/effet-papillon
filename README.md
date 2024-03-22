@@ -93,7 +93,16 @@ for i in range(num_steps):
 
 - Transposer les résultats dans un graphique.
 - Observer et analyser la forme résultante de l'Attracteur de Lorenz.
-    
+```py
+ax = plt.figure().add_subplot(projection='3d')
+ax.scatter(xs, ys, zs, s = 3, c = plt.cm.jet(zs/max(zs)))
+ax.plot(xs, ys, zs, color = 'r')
+ax.set_xlabel("X Axis")
+ax.set_ylabel("Y Axis")
+ax.set_zlabel("Z Axis")
+ax.set_title("Lorenz Attractor")
+plt.show()
+```
 ![code4](
 https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160217704/65b7eced-3b9a-4bc8-ae5b-32c32a163e08)
 
