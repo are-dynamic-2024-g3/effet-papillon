@@ -21,7 +21,8 @@ L’attracteur de Lorenz, c’est la théorie qu’une simple action, qui paraî
 
 On est ici dans un système dit chaotique, et vous allez comprendre pourquoi. Prenons un ensemble de boule de billard,et que l’on vient frapper une boule de ces boules, même en étant extrêmement précis, il est impossible que la boule de billard tape exactement au même endroit avec la même force deux fois de suite.Ainsi, la conséquence qui va s’en suivre, c’est qu’il n’y aura jamais deux parties qui se ressembleront.
 
- ![billard](https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160217704/d2a946f3-61cc-41fe-bf37-532a94e387ea)
+ ![billard](
+ https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160217704/d2a946f3-61cc-41fe-bf37-532a94e387ea)
 
  Comme il n’a suffi que d’un tout petit écart au moment de la frappe pour obtenir un résultat totalement différent, on dit que le jeu du billard est un système chaotique.
  
@@ -48,26 +49,33 @@ Voici les étapes clés qui vont nous permettre de modéliser l'attracteur de lo
      *Établir les équations fondamentales de Lorenz.
      *Description de la dynamique tridimensionnelle du système.
      
-![Capture d’écran_17-3-2024_154642_github com](https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160217704/991932ae-b319-41c8-b262-f2f70724cca4)
+![code1](
+https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160217704/991932ae-b319-41c8-b262-f2f70724cca4)
 
 ### Définir les Valeurs Initiales:
+
     *Préciser les conditions de départ pour x, y, et z.
     *rôle majeur dans la trajectoire globale de l'Attracteur.
    
-![image](https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160217704/ccc2bfdf-1411-4900-8d22-516ea3c1f93f)
+![code2](
+https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160217704/ccc2bfdf-1411-4900-8d22-516ea3c1f93f)
 
 
 ### Avancer dans le "Temps":
+
     *Calculer les dérivées partielles au point actuel.
     *Utiliser ces dérivées pour estimer le point suivant dans l'évolution du système.
     
-![derv](https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160217704/108989c7-3b70-4173-b40f-d21dfdf7f9ab)
+![code3](
+https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160217704/108989c7-3b70-4173-b40f-d21dfdf7f9ab)
 
 ### Procéder au Plot:
+
     *Transposer les résultats dans un graphique.
     *Observer et analyser la forme résultante de l'Attracteur de Lorenz.
     
-![Capture d’écran_17-3-2024_161430_github](https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160217704/65b7eced-3b9a-4bc8-ae5b-32c32a163e08)
+![code4](
+https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160217704/65b7eced-3b9a-4bc8-ae5b-32c32a163e08)
 
 
 # Modélisation de l'Attracteur de Lorenz
