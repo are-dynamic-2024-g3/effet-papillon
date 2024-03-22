@@ -81,7 +81,7 @@ ys = np.empty(num_steps + 1)
 zs = np.empty(num_steps + 1)
 
 
-xs[0], ys[0], zs[0] = (0., 1., 1.05)
+xs[0], ys[0], zs[0] = (0.0, 1.0, 1.05)
 for i in range(num_steps):
     x_dot, y_dot, z_dot = lorenz(xs[i], ys[i], zs[i])
     xs[i + 1] = xs[i] + (x_dot * dt)
