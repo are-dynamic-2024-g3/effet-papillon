@@ -46,16 +46,17 @@ Pour vous expliquer cette partie un peu plus en detail, nous allons la modeliser
 Voici les étapes clés qui vont nous permettre de modéliser l'attracteur de lorenz, elles vous permettront de mieux cerner les paramètres.
 
 ### Définir les Équations du Système Dynamique:
-     *Établir les équations fondamentales de Lorenz.
-     *Description de la dynamique tridimensionnelle du système.
+
+- Établir les équations fondamentales de Lorenz.
+- Description de la dynamique tridimensionnelle du système.
      
 ![code1](
 https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160217704/991932ae-b319-41c8-b262-f2f70724cca4)
 
 ### Définir les Valeurs Initiales:
 
-    *Préciser les conditions de départ pour x, y, et z.
-    *rôle majeur dans la trajectoire globale de l'Attracteur.
+- Préciser les conditions de départ pour x, y, et z.
+- rôle majeur dans la trajectoire globale de l'Attracteur.
    
 ![code2](
 https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160217704/ccc2bfdf-1411-4900-8d22-516ea3c1f93f)
@@ -63,16 +64,16 @@ https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160217704
 
 ### Avancer dans le "Temps":
 
-    *Calculer les dérivées partielles au point actuel.
-    *Utiliser ces dérivées pour estimer le point suivant dans l'évolution du système.
+- Calculer les dérivées partielles au point actuel.
+- Utiliser ces dérivées pour estimer le point suivant dans l'évolution du système.
     
 ![code3](
 https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160217704/108989c7-3b70-4173-b40f-d21dfdf7f9ab)
 
 ### Procéder au Plot:
 
-    *Transposer les résultats dans un graphique.
-    *Observer et analyser la forme résultante de l'Attracteur de Lorenz.
+- Transposer les résultats dans un graphique.
+- Observer et analyser la forme résultante de l'Attracteur de Lorenz.
     
 ![code4](
 https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160217704/65b7eced-3b9a-4bc8-ae5b-32c32a163e08)
