@@ -58,8 +58,6 @@ def lorenz(x, y, z, sigma=10, rho=28, beta=2.667):
     return x_dot, y_dot, z_dot
 ```
      
-![code1](
-https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160217704/991932ae-b319-41c8-b262-f2f70724cca4)
 
 ### Définir les Valeurs Initiales:
 
