@@ -106,14 +106,15 @@ plt.show()
 
 # Modélisation de l'Attracteur de Lorenz
 
-(Modèle de l'attracteur en version interactive)
 
-Voici donc la modélisation de l'attracteur une fois terminé, nous avons ici les paramètres de bases qui nous permettent d'obtenir la modélisation du fameux "effet papillon", qui est nommé comme ca notamment pour la forme qui fait penser a un papillon.
+
+Voici donc la modélisation de l'attracteur une fois terminé, nous avons ici les paramètres de bases qui nous permettent d'obtenir la modélisation du fameux "effet papillon", qui est nommé comme cela notamment pour la forme qui nous fait penser à un papillon.
 
 ( image )
 
-Cette modélisation est interactif ! Vous pouvez donc changer les paramètres de bases, et constater par vous meme la fascinante experience de k'attracteur de Lorenz !
+Cette modélisation est basée sur des sliders, voici donc une vidéo qui permet de constater le changement de la trajectoire du l'attracteur de Lorenz en modifiant les paramètres de bases !
 
+ (capture vidéo)
 
 
 ### Bibiliographie : 
