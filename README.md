@@ -52,10 +52,10 @@ Voici les étapes clés qui vont nous permettre de modéliser l'attracteur de lo
 
 ```py
 def lorenz(x, y, z, sigma=10, rho=28, beta=2.667):
-    x_dot = sigma*(y - x)
-    y_dot = rho*x - y - x*z
-    z_dot = x*y - beta*z
-    return x_dot, y_dot, z_dot
+    deriv_x = sigma*(y - x)
+    deriv_y = rho*x - y - x*z
+    deriv_z = x*y - beta*z
+    return deriv_x, deriv_y, deriv_z
 ```
      
 
@@ -64,7 +64,11 @@ def lorenz(x, y, z, sigma=10, rho=28, beta=2.667):
 - Préciser les conditions de départ pour x, y, et z.
 - rôle majeur dans la trajectoire globale de l'Attracteur.
 ```py
-xs[0] , y[0] , z[0] = (0.0 , 1.0 , 1.05)
+nb_pas = 1500
+x = np.empty(nb_pas + 1)
+y = np.empty(nb_pas + 1)
+z = np.empty(nb_pas + 1)
+x[0], y[0], z[0] = (1.0, 3.0, 5)
 ```
 
 
@@ -75,18 +79,11 @@ xs[0] , y[0] , z[0] = (0.0 , 1.0 , 1.05)
     
 ```py
 dt = 0.01
-num_steps = 2000
-xs = np.empty(num_steps + 1)
-ys = np.empty(num_steps + 1)
-zs = np.empty(num_steps + 1)
-
-
-xs[0], ys[0], zs[0] = (0.0, 1.0, 1.05)
-for i in range(num_steps):
-    x_dot, y_dot, z_dot = lorenz(xs[i], ys[i], zs[i])
-    xs[i + 1] = xs[i] + (x_dot * dt)
-    ys[i + 1] = ys[i] + (y_dot * dt)
-    zs[i + 1] = zs[i] + (z_dot * dt)
+for i in range(nb_pas):
+    deriv_x, deriv_y, deriv_z = lorenz(x[i], y[i], z[i])
+    x[i + 1] = x[i] + (deriv_x * dt)
+    y[i + 1] = y[i] + (deriv_y * dt)
+    z[i + 1] = z[i] + (deriv_z * dt)
 ```
 
 ### Procéder au Plot:
@@ -95,12 +92,13 @@ for i in range(num_steps):
 - Observer et analyser la forme résultante de l'Attracteur de Lorenz.
 ```py
 ax = plt.figure().add_subplot(projection='3d')
-ax.scatter(xs, ys, zs, s = 3, c = plt.cm.jet(zs/max(zs)))
-ax.plot(xs, ys, zs, color = 'r')
+ax.scatter(x, y, z,s = 2)
+ax.plot(x, y, z, color = 'r')
 ax.set_xlabel("X Axis")
 ax.set_ylabel("Y Axis")
 ax.set_zlabel("Z Axis")
 ax.set_title("Lorenz Attractor")
+
 plt.show()
 ```
 ![Capture d’écran_24-3-2024_144318_github com](https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160217704/a4e3644e-abb9-4649-8396-21f73403d9ea)
