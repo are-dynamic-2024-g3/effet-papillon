@@ -113,3 +113,7 @@ Voici donc la modélisation de l'attracteur une fois terminé, nous avons ici le
 ( image )
 
 Cette modélisation est interactif ! Vous pouvez donc changer les paramètres de bases, et constater par vous meme la fascinante experience de k'attracteur de Lorenz !
+
+Bibiliographie : 
+https://resteche.github.io/REsteche_blog/chaos%20theory/butterfly%20effect/python%20animation/2021/10/20/Lorenz_animation.html
+https://couleur-science.eu/?d=717abd--cest-quoi-un-attracteur-de-lorenzun-systeme-chaotique
