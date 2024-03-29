@@ -4,7 +4,8 @@
     Designed by the magnificients Suvana, Madina, Sathursjan
 Liens vers les titres :
 **|[Les bases de la théorie de l'attracteur de Lorenz](#introduction)|**
-**|[Les Equations et éléments à prendre en compte](#équations)|**
+**[Les Equations et éléments à prendre en compte](#équations)|**
+**[Comment modéliser le phénomène étudié](#modélisation)|**
 
 L'effet papillon, ou aussi appelé attracteur de Lorenz, a été decouvert par Edward Lorenz, météorologue et Mathémticien. Certains disent qu'un battement de papillon peut amener à une tornade à plus de 1000 kilomètres. Ses recherches montrent celà, car ces dérnières sont basées sur un principe fondamental, la dépendance sensible aux conditions initiales dans un système dynamique non linéaire.
 
@@ -46,7 +47,7 @@ Les variables x, y, z, représentent un point d'intérêt dans l'espace en quest
 
 Pour vous expliquer cette partie un peu plus en detail, nous allons la modeliser.
 
-# Comment modéliser le phénomène étudié 
+#  <a name="modélisation"></a>Comment modéliser le phénomène étudié 
 
 Voici les étapes clés qui vont nous permettre de modéliser l'attracteur de lorenz, elles vous permettront de mieux cerner les paramètres.
 
