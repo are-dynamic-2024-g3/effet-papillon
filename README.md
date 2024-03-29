@@ -6,7 +6,7 @@ Liens vers les titres :
 **|[Les bases de la théorie de l'attracteur de Lorenz](#introduction)|**
 **[Les Equations et éléments à prendre en compte](#équations)|**
 **[Comment modéliser le phénomène étudié](#modélisation)|**
-**[ Modélisation de l'Attracteur de Lorenz](#animation)|**
+**[Dépendance des paramètres initiaux](#animation)|**
 **[Bibiliographie](#ressources)|**
 
 L'effet papillon, ou aussi appelé attracteur de Lorenz, a été decouvert par Edward Lorenz, météorologue et Mathémticien. Certains disent qu'un battement de papillon peut amener à une tornade à plus de 1000 kilomètres. Ses recherches montrent celà, car ces dérnières sont basées sur un principe fondamental, la dépendance sensible aux conditions initiales dans un système dynamique non linéaire.
@@ -112,11 +112,11 @@ plt.show()
 ![Capture d’écran_24-3-2024_144318_github com](https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160217704/a4e3644e-abb9-4649-8396-21f73403d9ea)
 
 
-# <a name="animation"></a> Modélisation de l'Attracteur de Lorenz
+# <a name="animation"></a> Dépendance des paramètres initiaux 
 
 Voici donc la modélisation de l'attracteur une fois terminé, nous avons ici les paramètres de bases qui nous permettent d'obtenir la modélisation du fameux "effet papillon", qui est nommé comme cela notamment pour la forme qui nous fait penser à un papillon.
 
-
+![Capture d’écran_29-3-2024_95350_github com](https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160217704/4c0cb92f-933e-4dcb-87ff-9ff1dafb90c6)
 
 Cette modélisation est basée sur des sliders, voici donc une vidéo qui permet de constater le changement de la trajectoire de l'attracteur de Lorenz en modifiant les paramètres de bases !
 
