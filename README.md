@@ -1,4 +1,6 @@
+[introduction](#introduction)
 # L'EFFET PAPILLON DANS TOUTE SA SPLENDEUR
+  #introduction
     Designed by the magnificients Suvana, Madina, Sathursjan
 
 L'effet papillon, ou aussi appelé attracteur de Lorenz, a été decouvert par Edward Lorenz, météorologue et Mathémticien. Certains disent qu'un battement de papillon peut amener à une tornade à plus de 1000 kilomètres. Ses recherches montrent celà, car ces dérnières sont basées sur un principe fondamental, la dépendance sensible aux conditions initiales dans un système dynamique non linéaire.
