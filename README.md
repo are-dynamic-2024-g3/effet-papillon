@@ -116,7 +116,7 @@ plt.show()
 
 Voici donc la modélisation de l'attracteur une fois terminé, nous avons ici les paramètres de bases qui nous permettent d'obtenir la modélisation du fameux "effet papillon", qui est nommé comme cela notamment pour la forme qui nous fait penser à un papillon.
 
-![image](https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160217704/045941f3-165e-4ae9-ad8a-8bfb69b8fef7)
+
 
 Cette modélisation est basée sur des sliders, voici donc une vidéo qui permet de constater le changement de la trajectoire de l'attracteur de Lorenz en modifiant les paramètres de bases !
 
