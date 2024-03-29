@@ -1,7 +1,8 @@
 
 # L'EFFET PAPILLON DANS TOUTE SA SPLENDEUR
  
-    Designed by the magnificients Suvana, Madina, Sathursjan
+    #Designed by the magnificients Suvana, Madina, Sathursjan
+
     
 Liens vers les titres :
 **|[Les bases de la théorie de l'attracteur de Lorenz](#introduction)|**
