@@ -7,6 +7,7 @@ Liens vers les titres :
 **[Les Equations et éléments à prendre en compte](#équations)|**
 **[Comment modéliser le phénomène étudié](#modélisation)|**
 **[ Modélisation de l'Attracteur de Lorenz](#animation)|**
+**[Bibiliographie](#ressources)|**
 
 L'effet papillon, ou aussi appelé attracteur de Lorenz, a été decouvert par Edward Lorenz, météorologue et Mathémticien. Certains disent qu'un battement de papillon peut amener à une tornade à plus de 1000 kilomètres. Ses recherches montrent celà, car ces dérnières sont basées sur un principe fondamental, la dépendance sensible aux conditions initiales dans un système dynamique non linéaire.
 
@@ -122,7 +123,7 @@ Cette modélisation est basée sur des sliders, voici donc une vidéo qui permet
  (capture vidéo)
 
 
-### Bibiliographie : 
+###  <a name="ressources"></a> Bibiliographie : 
 https://resteche.github.io/REsteche_blog/chaos%20theory/butterfly%20effect/python%20animation/2021/10/20/Lorenz_animation.html
 
 https://couleur-science.eu/?d=717abd--cest-quoi-un-attracteur-de-lorenzun-systeme-chaotique
