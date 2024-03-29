@@ -49,7 +49,7 @@ Les variables x, y, z, représentent un point d'intérêt dans l'espace en quest
 
 Pour vous expliquer cette partie un peu plus en detail, nous allons la modeliser.
 
-#  <a name="modélisation"></a>Comment modéliser le phénomène étudié 
+#  <a name="modélisation"></a> Comment modéliser le phénomène étudié 
 
 Voici les étapes clés qui vont nous permettre de modéliser l'attracteur de lorenz, elles vous permettront de mieux cerner les paramètres.
 
