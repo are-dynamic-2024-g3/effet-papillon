@@ -1,4 +1,4 @@
-
+**[Les bases de la théorie de l'attracteur de Lorenz](#introduction)**
 
 # L'EFFET PAPILLON DANS TOUTE SA SPLENDEUR
  
@@ -8,7 +8,7 @@ L'effet papillon, ou aussi appelé attracteur de Lorenz, a été decouvert par E
 
 <img width="680" alt="Capture d'écran 2024-03-08 093158" src="https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160217704/ece84bb6-992d-44f9-a504-b22166f5597d">
 
-# Les bases  de la théorie de l attracteur de Lorenz   
+# <a name="introduction"></a> Les bases de la théorie de l'attracteur de Lorenz   
 
 Il y a trois points qui expliquent clairement les bases qui ont permis à la théorie de l’attracteur de Lorenz d’exister :
 
