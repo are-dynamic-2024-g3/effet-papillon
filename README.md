@@ -1,8 +1,10 @@
-**|[Les bases de la théorie de l'attracteur de Lorenz](#introduction)|**
 
 # L'EFFET PAPILLON DANS TOUTE SA SPLENDEUR
  
     Designed by the magnificients Suvana, Madina, Sathursjan
+Liens vers les titres :
+**|[Les bases de la théorie de l'attracteur de Lorenz](#introduction)|**
+**|[Les Equations et éléments à prendre en compte](#équations)|**
 
 L'effet papillon, ou aussi appelé attracteur de Lorenz, a été decouvert par Edward Lorenz, météorologue et Mathémticien. Certains disent qu'un battement de papillon peut amener à une tornade à plus de 1000 kilomètres. Ses recherches montrent celà, car ces dérnières sont basées sur un principe fondamental, la dépendance sensible aux conditions initiales dans un système dynamique non linéaire.
 
@@ -31,7 +33,7 @@ On est ici dans un système dit chaotique, et vous allez comprendre pourquoi. Pr
  
  Ici, on a un exemple assez générale de l’attracteur de Lorenz, passons maintenant à une explication plus « scientifique ».
 
-# Les Equations et éléments à prendre en compte
+# <a name="équations"></a>  Les Equations et éléments à prendre en compte
 
 <img width="273" alt="Capture d'écran 2024-03-08 094334" src="https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160217704/f453ed7e-c933-479c-b1d9-5f996019c8a0">
 
