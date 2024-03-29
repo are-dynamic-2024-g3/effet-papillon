@@ -1,4 +1,4 @@
-|**[Les bases de la théorie de l'attracteur de Lorenz](#introduction)**|
+**|[Les bases de la théorie de l'attracteur de Lorenz](#introduction)|**
 
 # L'EFFET PAPILLON DANS TOUTE SA SPLENDEUR
  
