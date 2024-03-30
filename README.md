@@ -138,5 +138,4 @@ https://couleur-science.eu/?d=717abd--cest-quoi-un-attracteur-de-lorenzun-system
 
 https://www.geeksforgeeks.org/matplotlib-slider-widget/amp/
 
-
 https://matplotlib.org/stable/users/explain/colors/colormaps.html
