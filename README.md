@@ -157,4 +157,5 @@ SEANCE 5 : Nous avons importé des sliders interactifs avec matplotlib et %matpl
 SEANCE 6 : Nous avons rajouter des liens de racourcis dans le site pour accéder aux paragraphes plus rapidement, nous avons fait une recherche par rapport aux thèmes qu’on peut utiliser pour le site, et tester differents thèmes.
 
 SEANCE 7 :
+Nous avons jouer au puissance 4
 
