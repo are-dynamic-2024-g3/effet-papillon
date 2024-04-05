@@ -127,9 +127,7 @@ Voici donc la modélisation de l'attracteur une fois terminé, nous avons ici le
 
 Cette modélisation est basée sur des sliders, nous avons réalisé une capture vidéo pour mieux voir la différence dans la trajectoire de l'attracteur de lorenz, il suffit de regarder dans le fichier .....
 
- (capture vidéo)
-
-
+ 
 ###  <a name="ressources"></a> Bibiliographie : 
 
 https://matplotlib.org/stable/gallery/color/named_colors.html
