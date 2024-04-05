@@ -71,6 +71,7 @@ def lorenz(x, y, z, sigma=10, rho=28, beta=2.667):
 
 ### Définir les Valeurs Initiales:
 
+- Valeurs initiales définies aléatoirement avec la fonction np.empty()
 - Préciser les conditions de départ pour x, y, et z.
 - rôle majeur dans la trajectoire globale de l'Attracteur.
 ```py
