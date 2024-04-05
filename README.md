@@ -139,6 +139,8 @@ https://www.geeksforgeeks.org/matplotlib-slider-widget/amp/
 
 https://matplotlib.org/stable/users/explain/colors/colormaps.html
 
+https://www.tresfacile.net/la-methode-numpy-empty-python/
+
 ###  <a name="calendrier"></a> Tableau de bord : 
 
 SEANCE 1 : Nous avons rassemblé les informations sur l’attracteur de lorenz, réparti les tâches, et avons avons essayé de s'habituer à github . 
