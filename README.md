@@ -125,7 +125,7 @@ Voici donc la modélisation de l'attracteur une fois terminé, nous avons ici le
 
 ![Capture d’écran_29-3-2024_95350_github com](https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160217704/4c0cb92f-933e-4dcb-87ff-9ff1dafb90c6)
 
-Cette modélisation est basée sur des sliders, voici donc une vidéo qui permet de constater le changement de la trajectoire de l'attracteur de Lorenz en modifiant les paramètres de bases !
+Cette modélisation est basée sur des sliders, nous avons réalisé une capture vidéo pour mieux voir la différence dans la trajectoire de l'attracteur de lorenz, il suffit de regarder dans le fichier .....
 
  (capture vidéo)
 
