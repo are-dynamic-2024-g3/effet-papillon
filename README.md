@@ -131,8 +131,6 @@ Cette modélisation est basée sur des sliders, nous avons réalisé une capture
  
 ###  <a name="ressources"></a> Bibiliographie : 
 
-**[https://matplotlib.org/stable/gallery/color/named_colors.html].**
-
 **[https://resteche.github.io/REsteche_blog/chaos%20theory/butterfly%20effect/python%20animation/2021/10/20/Lorenz_animation.html]**
 
 https://couleur-science.eu/?d=717abd--cest-quoi-un-attracteur-de-lorenzun-systeme-chaotique
