@@ -10,6 +10,7 @@ Liens vers les titres :
 **[Comment modéliser le phénomène étudié](#modélisation)|**
 **[Dépendance des paramètres initiaux](#animation)|**
 **[Bibiliographie](#ressources)|**
+**[Tableau de bord](#calendrier)|**
 
 L'effet papillon, ou aussi appelé attracteur de Lorenz, a été decouvert par Edward Lorenz, météorologue et Mathémticien. Certains disent qu'un battement de papillon peut amener à une tornade à plus de 1000 kilomètres. Ses recherches montrent celà, car ces dérnières sont basées sur un principe fondamental, la dépendance sensible aux conditions initiales dans un système dynamique non linéaire.
 
@@ -130,6 +131,7 @@ Cette modélisation est basée sur des sliders, voici donc une vidéo qui permet
 
 
 ###  <a name="ressources"></a> Bibiliographie : 
+
 https://matplotlib.org/stable/gallery/color/named_colors.html
 
 https://resteche.github.io/REsteche_blog/chaos%20theory/butterfly%20effect/python%20animation/2021/10/20/Lorenz_animation.html
@@ -139,3 +141,20 @@ https://couleur-science.eu/?d=717abd--cest-quoi-un-attracteur-de-lorenzun-system
 https://www.geeksforgeeks.org/matplotlib-slider-widget/amp/
 
 https://matplotlib.org/stable/users/explain/colors/colormaps.html
+
+###  <a name="calendrier"></a> Tableau de bord : 
+
+SEANCE 1 : Nous avons rassemblé les informations sur l’attracteur de lorenz, réparti les tâches, et avons avons essayé de s'habituer à github . 
+
+SEANCE 2 : Après avoir acquis les bases, nous avons fait la mise en page du site web, introduit l’attracteur de lorenz, sans codage, seulement du texte dans le readme. Cela nous a permis d’organiser le site et d’avoir un aperçu de ce qu’on pouvait faire ou non. Nous nous sommes basés sur le diaporama fait pour présenter notre projet, pour pouvoir agencer notre site.
+
+SEANCE 3 : Durant cette séance, nous nous sommes focalisés sur la modélisation et l’animation de l’attracteur de lorenz, l’idée était de pouvoir voir l’attracteur de lorenz sous ses différentes formes lorsque les conditions initiales sont modifiées. 
+
+SEANCE 4 : Nous nous sommes répartis les tâches qui nous restaient, améliorer la mise en page du readme, et avons travaillé sur les sliders de nos modélisations.
+
+SEANCE 5 : Nous avons importé des sliders interactifs avec matplotlib et %matplotlib notebook, nous sommes sur le peaufinement des modélisations, pour pouvoir les importer sur notre readme comme nous le souhaitions. Le principal problème était que nous ne pouvions pas faire de modèle interactifs avec l’utilisateur du site. Nous avons également exporté notre readme vers un site.
+
+SEANCE 6 : Nous avons rajouter des liens de racourcis dans le site pour accéder aux paragraphes plus rapidement, nous avons fait une recherche par rapport aux thèmes qu’on peut utiliser pour le site, et tester differents thèmes.
+
+SEANCE 7 :
+
