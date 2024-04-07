@@ -131,15 +131,15 @@ Cette modélisation est basée sur des sliders, nous avons réalisé une capture
  
 ###  <a name="ressources"></a> Bibiliographie : 
 
-[Animation]( https://resteche.github.io/REsteche_blog/chaos%20theory/butterfly%20effect/python%20animation/2021/10/20/Lorenz_animation.html)
+[Animation_gif]( https://resteche.github.io/REsteche_blog/chaos%20theory/butterfly%20effect/python%20animation/2021/10/20/Lorenz_animation.html)
 
-https://couleur-science.eu/?d=717abd--cest-quoi-un-attracteur-de-lorenzun-systeme-chaotique
+[comprendre la théorie](https://couleur-science.eu/?d=717abd--cest-quoi-un-attracteur-de-lorenzun-systeme-chaotique)
 
-https://www.geeksforgeeks.org/matplotlib-slider-widget/amp/
+[sliders](https://www.geeksforgeeks.org/matplotlib-slider-widget/amp/)
 
-https://matplotlib.org/stable/users/explain/colors/colormaps.html
+[couleurs_matplotlib](https://matplotlib.org/stable/users/explain/colors/colormaps.html)
 
-https://www.tresfacile.net/la-methode-numpy-empty-python/
+[np.empty()](https://www.tresfacile.net/la-methode-numpy-empty-python/)
 
 ###  <a name="calendrier"></a> Tableau de bord : 
 
@@ -155,6 +155,5 @@ SEANCE 5 : Nous avons importé des sliders interactifs avec matplotlib et %matpl
 
 SEANCE 6 : Nous avons rajouter des liens de racourcis dans le site pour accéder aux paragraphes plus rapidement, nous avons fait une recherche par rapport aux thèmes qu’on peut utiliser pour le site, et tester differents thèmes.
 
-SEANCE 7 :
-Nous avons jouer au puissance 4
+SEANCE 7 :  Nous avons rajouter des liens de racourcis dans le site pour accéder aux sites des ressources plus rapidement, et avons rajouté un fichier mp4 pour la vidéo sur les sliders.
 
