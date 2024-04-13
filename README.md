@@ -19,7 +19,7 @@ L'effet papillon, ou aussi appelé attracteur de Lorenz, a été decouvert par E
 
 Il y a trois points qui expliquent clairement les bases qui ont permis à la théorie de l’attracteur de Lorenz d’exister :
 
-- La dépendances sensible aux conditions initiales
+- La dépendance sensible aux conditions initiales
 - La conséquence des changements des états initiaux : entraîner de grandes différences dans un état ultérieur
 - Principalement tirée de la théorie du chaos, crée également par Edward Lorenz
 
