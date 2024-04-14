@@ -131,8 +131,6 @@ Cette modélisation est basée sur des sliders, nous avons réalisé une capture
  
 ###  <a name="ressources"></a> Bibiliographie : 
 
-[Animation_gif]( https://resteche.github.io/REsteche_blog/chaos%20theory/butterfly%20effect/python%20animation/2021/10/20/Lorenz_animation.html)
-
 [comprendre la théorie](https://couleur-science.eu/?d=717abd--cest-quoi-un-attracteur-de-lorenzun-systeme-chaotique)
 
 [sliders](https://www.geeksforgeeks.org/matplotlib-slider-widget/amp/)
@@ -142,6 +140,8 @@ Cette modélisation est basée sur des sliders, nous avons réalisé une capture
 [np.empty()](https://www.tresfacile.net/la-methode-numpy-empty-python/)
 
 [spicy.integrate](https://cpge.frama.io/fiches-cpge/Python/%C3%89quation%20diff%C3%A9rentielle/0-Equation%20diff%C3%A9rentielle/)
+
+[Animation_gif]( https://resteche.github.io/REsteche_blog/chaos%20theory/butterfly%20effect/python%20animation/2021/10/20/Lorenz_animation.html)
 
 ###  <a name="calendrier"></a> Tableau de bord : 
 
