@@ -141,6 +141,8 @@ Cette modélisation est basée sur des sliders, nous avons réalisé une capture
 
 [np.empty()](https://www.tresfacile.net/la-methode-numpy-empty-python/)
 
+[spicy.integrate](https://cpge.frama.io/fiches-cpge/Python/%C3%89quation%20diff%C3%A9rentielle/0-Equation%20diff%C3%A9rentielle/)
+
 ###  <a name="calendrier"></a> Tableau de bord : 
 
 SEANCE 1 : Nous avons rassemblé les informations sur l’attracteur de lorenz, réparti les tâches, et avons avons essayé de s'habituer à github . 
