@@ -7,7 +7,7 @@ Liens vers les titres :
 **|[Les bases de la théorie de l'attracteur de Lorenz](#introduction)|**
 **[Les Equations et éléments à prendre en compte](#équations)|**
 **[Comment modéliser le phénomène étudié](#modélisation)|**
-**[Dépendance des paramètres initiaux](#animation)|**
+**[Dépendance des paramètres du système/des conditions initiales ](#animation)|**
 **[Bibiliographie](#ressources)|**
 **[Tableau de bord](#calendrier)|**
 
