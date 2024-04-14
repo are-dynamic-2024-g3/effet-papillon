@@ -54,6 +54,14 @@ Pour vous expliquer cette partie un peu plus en detail, nous allons la modeliser
 #  <a name="modélisation"></a> Comment modéliser le phénomène étudié 
 
 Voici les étapes clés qui vont nous permettre de modéliser l'attracteur de lorenz, elles vous permettront de mieux cerner les paramètres.
+### Les bibiliothèques utilisées:
+
+```py
+import numpy as np
+import matplotlib.pyplot as plt
+from scipy.integrate import odeint
+```
+
 
 ### Définir les Équations du Système Dynamique:
 
