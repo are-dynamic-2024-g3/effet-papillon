@@ -128,11 +128,10 @@ plt.show()
 ![Capture d’écran_14-4-2024_131036_localhost](https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160217704/6d5ae939-d231-4c2d-b3bc-3405a3f40a79)
 
 
-# <a name="animation"></a> Dépendance des paramètres initiaux 
+# <a name="animation"></a> Dépendance des paramètres du système/des conditions initiales 
 
-Voici donc la modélisation de l'attracteur une fois terminé, nous avons ici les paramètres de bases qui nous permettent d'obtenir la modélisation du fameux "effet papillon", qui est nommé comme cela notamment pour la forme qui nous fait penser à un papillon.
-
-Cette modélisation est basée sur des sliders, nous avons réalisé une capture vidéo pour mieux voir la différence dans la trajectoire de l'attracteur de lorenz, il suffit de regarder dans le fichier .....
+Ici on retrouve les sliders effectués qui permettent de modifier les paramètres du systèmes de Lorenz ainsi que les conditions initiales manuellement pour mieux voir la différence dans la trajectoire de l'attracteur de lorenz.
+nous avons réalisé une capture vidéo, il suffit de cliquer sur ce fichier.
 
 [![video](https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160217704/4c0cb92f-933e-4dcb-87ff-9ff1dafb90c6)](https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/blob/main/beta-sliders.mp4)
 
