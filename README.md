@@ -61,7 +61,10 @@ Voici les étapes clés qui vont nous permettre de modéliser l'attracteur de lo
 - Description de la dynamique tridimensionnelle du système.
 
 ```py
-def lorenz(x, y, z, sigma=10, rho=28, beta=2.667):
+sigma = 10
+rho = 28
+beta = 2.667
+def lorenz(x, y, z, sigma, rho, beta):
     deriv_x = sigma*(y - x)
     deriv_y = rho*x - y - x*z
     deriv_z = x*y - beta*z
@@ -71,30 +74,29 @@ def lorenz(x, y, z, sigma=10, rho=28, beta=2.667):
 
 ### Définir les Valeurs Initiales:
 
-- Valeurs initiales définies aléatoirement avec la fonction np.empty()
 - Préciser les conditions de départ pour x, y, et z.
+- Préciser le temps entre chaque pas. #dt
+- Définir un tableau "t" qui représente les instants de temps auxquels le système de Lorenz est évalué.
 - rôle majeur dans la trajectoire globale de l'Attracteur.
 ```py
-nb_pas = 1500
-x = np.empty(nb_pas + 1)
-y = np.empty(nb_pas + 1)
-z = np.empty(nb_pas + 1)
-x[0], y[0], z[0] = (1.0, 3.0, 5)
+dt = 0.009999
+t = np.arange(0, dt*2000, dt) 
+etat_initial = [0.0, 2.0, 6.0]
 ```
 
 
-### Avancer dans le "Temps":
+### Résolution de l'équation différentielle du système de Lorenz:
 
-- Calculer les dérivées partielles au point actuel.
-- Utiliser ces dérivées pour estimer le point suivant dans l'évolution du système.
-    
+-Utiliser la fonction "odeint" pour pouvoir intégrer et ainsi résoudre l'équation différentielle du système.
+
+-Obtenir les tableaux de x,y,z contenant les valeurs des variables x, y et z du système de Lorenz à différents instants de temps, ce qui nous permet ensuite de visualiser et d'analyser l'évolution de ces variables au fil du temps.
+
 ```py
-dt = 0.01
-for i in range(nb_pas):
-    deriv_x, deriv_y, deriv_z = lorenz(x[i], y[i], z[i])
-    x[i + 1] = x[i] + (deriv_x * dt)
-    y[i + 1] = y[i] + (deriv_y * dt)
-    z[i + 1] = z[i] + (deriv_z * dt)
+solution = odeint(lorenz, etat_initial, t, args=(sigma, rho, beta))
+
+x = solution[:, 0]
+y = solution[:, 1]
+z = solution[:, 2]
 ```
 
 ### Procéder au Plot:
@@ -136,8 +138,6 @@ Cette modélisation est basée sur des sliders, nous avons réalisé une capture
 [sliders](https://www.geeksforgeeks.org/matplotlib-slider-widget/amp/)
 
 [couleurs_matplotlib](https://matplotlib.org/stable/users/explain/colors/colormaps.html)
-
-[np.empty()](https://www.tresfacile.net/la-methode-numpy-empty-python/)
 
 [spicy.integrate](https://cpge.frama.io/fiches-cpge/Python/%C3%89quation%20diff%C3%A9rentielle/0-Equation%20diff%C3%A9rentielle/)
 
