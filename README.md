@@ -119,6 +119,7 @@ plt.show()
 
 
 ![Capture d’écran_24-3-2024_144318_github com](https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160217704/a4e3644e-abb9-4649-8396-21f73403d9ea)
+![Capture d’écran_14-4-2024_13146_localhost](https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160217704/e0498c09-14c6-460e-a0b4-4aad771622ed)
 
 
 # <a name="animation"></a> Dépendance des paramètres initiaux 
