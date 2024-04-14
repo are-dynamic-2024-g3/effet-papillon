@@ -117,7 +117,7 @@ ax.set_title("Lorenz Attractor")
 plt.show()
 ```
 
-![Capture d’écran_14-4-2024_13146_localhost](https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160217704/e0498c09-14c6-460e-a0b4-4aad771622ed)
+![Capture d’écran_14-4-2024_131036_localhost](https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160217704/6d5ae939-d231-4c2d-b3bc-3405a3f40a79)
 
 
 # <a name="animation"></a> Dépendance des paramètres initiaux 
