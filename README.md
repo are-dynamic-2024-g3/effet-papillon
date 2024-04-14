@@ -87,9 +87,9 @@ etat_initial = [0.0, 2.0, 6.0]
 
 ### Résolution de l'équation différentielle du système de Lorenz:
 
--Utiliser la fonction "odeint" pour pouvoir intégrer et ainsi résoudre l'équation différentielle du système.
+- Utiliser la fonction "odeint" pour pouvoir intégrer et ainsi résoudre l'équation différentielle du système.
 
--Obtenir les tableaux de x,y,z contenant les valeurs des variables x, y et z du système de Lorenz à différents instants de temps, ce qui nous permet ensuite de visualiser et d'analyser l'évolution de ces variables au fil du temps.
+- Obtenir les tableaux de x,y,z contenant les valeurs des variables x, y et z du système de Lorenz à différents instants de temps, ce qui nous permet ensuite de visualiser et d'analyser l'évolution de ces variables au fil du temps.
 
 ```py
 solution = odeint(lorenz, etat_initial, t, args=(sigma, rho, beta))
