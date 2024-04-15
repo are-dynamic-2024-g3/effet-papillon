@@ -152,7 +152,7 @@ nous avons réalisé une capture vidéo, il suffit de cliquer sur ce fichier.
 
 ###  <a name="calendrier"></a> Tableau de bord : 
 
-SEANCE 1 : Nous avons rassemblé les informations sur l’attracteur de lorenz, réparti les tâches, et avons essayé de se familiariser avec github . 
+* SEANCE 1 : Nous avons rassemblé les informations sur l’attracteur de lorenz, réparti les tâches, et avons essayé de se familiariser avec github . 
 
 SEANCE 2 : Après avoir acquis les bases, nous avons fait la mise en page du site web, introduit l’attracteur de lorenz, sans codage, seulement du texte dans le readme. Cela nous a permis d’organiser le site et d’avoir un aperçu de ce qu’on pouvait faire ou non. Nous nous sommes basés sur le diaporama fait pour présenter notre projet, pour pouvoir agencer notre site.
 
