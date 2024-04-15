@@ -147,7 +147,9 @@ nous avons réalisé une capture vidéo, il suffit de cliquer sur ce fichier.
 
 [spicy.integrate](https://cpge.frama.io/fiches-cpge/Python/%C3%89quation%20diff%C3%A9rentielle/0-Equation%20diff%C3%A9rentielle/)
 
-[Animation_gif]( https://resteche.github.io/REsteche_blog/chaos%20theory/butterfly%20effect/python%20animation/2021/10/20/Lorenz_animation.html)
+[Animation]( https://resteche.github.io/REsteche_blog/chaos%20theory/butterfly%20effect/python%20animation/2021/10/20/Lorenz_animation.html)
+
+[création_gif](https://www.developpez.net/forums/d1453508/autres-langages/python/calcul-scientifique/creer-gif-annime-pil/)
 
 ###  <a name="calendrier"></a> Tableau de bord : 
 
