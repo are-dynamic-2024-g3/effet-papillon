@@ -25,11 +25,10 @@ Il y a trois points qui expliquent clairement les bases qui ont permis à la th�
 
 Explication plus précise :
 
-Maintenant qu’on a vu les éléments qui servent de base a la théorie de l’attracteur de Lorenz, il faut que vous compreniez réellement ce que c’est ;
+L’attracteur de Lorenz est la théorie qu’une simple action, qui paraît être un détail futile, peut avoir de conséquences hors-norme sur le système. Prenons un exemple :
 
-L’attracteur de Lorenz, c’est la théorie qu’une simple action, qui paraît être un détail futile, peut avoir de conséquences hors-norme sur le système. Prenons un exemple :
-
-On est ici dans un système dit chaotique, et vous allez comprendre pourquoi. Prenons un ensemble de boule de billard,et que l’on vient frapper une boule de ces boules, même en étant extrêmement précis, il est impossible que la boule de billard tape exactement au même endroit avec la même force deux fois de suite.Ainsi, la conséquence qui va s’en suivre, c’est qu’il n’y aura jamais deux parties qui se ressembleront.
+On est ici dans un système dit chaotique, et vous allez comprendre pourquoi. Prenons un ensemble de boules de billard,et que l’on vient frapper une seule de ces boules, même en étant extrêmement précis, il est impossible que la boule de billard tape exactement au même endroit avec la même force deux fois de suite.
+Ainsi, la conséquence qui va s’en suivre, c’est qu’il n’y aura jamais deux parties qui se ressembleront.
 
  ![billard](
  https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160217704/d2a946f3-61cc-41fe-bf37-532a94e387ea)
@@ -45,9 +44,9 @@ On est ici dans un système dit chaotique, et vous allez comprendre pourquoi. Pr
 x, y, z : Représentent un point d'intérêt dans l'espace tridimensionnel, décrivant la position à un moment donné.
 σ, ρ, β : Ces éléments numériques définissent l'attracteur de Lorenz, modulant les trajectoires et influençant la sensibilité aux conditions initiales
 
-Ici, ce qu'il faut comprendre, c'est que les équations données représentent une forme géometrique complexe de l'attracteur de lorenz, ou plus précisément le comportement "chaotique" d'un système dynamique en trois dimensions.
-Les variables x, y, z, représentent un point d'intérêt dans l'espace en question, décrivant la position de ce point à un moment donné.
-σ, ρ, β, représentent les trajectoires et influencent la sensibilité aux conditions initiales, ce sont donc ces éléments là qui vont nous interesser car c'est selon ces variables , que les conditions initiales se définissent, et font qu'on obtienne des resultats totalement différents à la fin. 
+- Ici, ce qu'il faut comprendre, c'est que les équations données représentent une forme géometrique complexe de l'attracteur de lorenz, ou plus précisément le comportement "chaotique" d'un système dynamique en trois dimensions.
+- Les variables x, y, z, représentent un point d'intérêt dans l'espace en question, décrivant la position de ce point à un moment donné.
+- σ, ρ, β, représentent les trajectoires et influencent la sensibilité aux conditions initiales, ce sont donc ces éléments là qui vont nous interesser car c'est selon ces variables , que les conditions initiales se définissent, et font qu'on obtienne des resultats totalement différents à la fin. 
 
 Pour vous expliquer cette partie un peu plus en detail, nous allons la modeliser.
 
@@ -153,7 +152,7 @@ nous avons réalisé une capture vidéo, il suffit de cliquer sur ce fichier.
 
 ###  <a name="calendrier"></a> Tableau de bord : 
 
-SEANCE 1 : Nous avons rassemblé les informations sur l’attracteur de lorenz, réparti les tâches, et avons avons essayé de s'habituer à github . 
+SEANCE 1 : Nous avons rassemblé les informations sur l’attracteur de lorenz, réparti les tâches, et avons essayé de se familiariser avec github . 
 
 SEANCE 2 : Après avoir acquis les bases, nous avons fait la mise en page du site web, introduit l’attracteur de lorenz, sans codage, seulement du texte dans le readme. Cela nous a permis d’organiser le site et d’avoir un aperçu de ce qu’on pouvait faire ou non. Nous nous sommes basés sur le diaporama fait pour présenter notre projet, pour pouvoir agencer notre site.
 
@@ -165,5 +164,5 @@ SEANCE 5 : Nous avons importé des sliders interactifs avec matplotlib et %matpl
 
 SEANCE 6 : Nous avons rajouter des liens de racourcis dans le site pour accéder aux paragraphes plus rapidement, nous avons fait une recherche par rapport aux thèmes qu’on peut utiliser pour le site, et tester differents thèmes.
 
-SEANCE 7 :  Nous avons rajouter des liens de racourcis dans le site pour accéder aux sites des ressources plus rapidement, et avons rajouté un fichier mp4 pour la vidéo sur les sliders.
+SEANCE 7 :  Nous avons rajouté des liens de racourcis dans le site pour accéder à ces derniers plus rapidement, et avons rajouté un fichier mp4 pour la vidéo sur les sliders.
 
