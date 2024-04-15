@@ -82,7 +82,7 @@ def lorenz(x, y, z, sigma, rho, beta):
 ### Définir les Valeurs Initiales:
 
 - Préciser les conditions de départ pour x, y, et z.
-- Préciser le temps entre chaque pas. #dt
+- Préciser le temps entre chaque pas. 
 - Définir un tableau "t" qui représente les instants de temps auxquels le système de Lorenz est évalué.
 - rôle majeur dans la trajectoire globale de l'Attracteur.
 ```py
