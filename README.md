@@ -132,6 +132,9 @@ plt.show()
 Ici on retrouve les sliders effectués qui permettent de modifier les paramètres du systèmes de Lorenz ainsi que les conditions initiales manuellement pour mieux voir la différence dans la trajectoire de l'attracteur de lorenz.
 nous avons réalisé une capture vidéo, il suffit de cliquer sur ce fichier.
 
+https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160218534/bfac7989-f715-4363-b5ee-5d940a32acca
+
+
 [![video](https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160217704/4c0cb92f-933e-4dcb-87ff-9ff1dafb90c6)](https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/blob/main/beta-sliders.mp4)
 
 
