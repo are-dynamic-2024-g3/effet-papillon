@@ -145,19 +145,21 @@ nous avons réalisé une capture vidéo, il suffit de cliquer sur ce fichier.
  
 ###  <a name="ressources"></a> Bibiliographie : 
 
-[comprendre la théorie](https://couleur-science.eu/?d=717abd--cest-quoi-un-attracteur-de-lorenzun-systeme-chaotique)
+[Comprendre la théorie](https://couleur-science.eu/?d=717abd--cest-quoi-un-attracteur-de-lorenzun-systeme-chaotique)
 
-[comprendre la théorie en détail](https://links.uwaterloo.ca/pmath370w14/PMATH370/lorenz%20Latex.pdf) 
+[Comprendre la théorie en détail](https://links.uwaterloo.ca/pmath370w14/PMATH370/lorenz%20Latex.pdf) 
 
-[sliders](https://www.geeksforgeeks.org/matplotlib-slider-widget/amp/)
+[Visualisation des changements des paramètres en fonction du temps](https://tng-daryl.medium.com/visualizing-the-lorenz-attractor-in-julia-c9417f219e9b)
 
-[couleurs_matplotlib](https://matplotlib.org/stable/users/explain/colors/colormaps.html)
+[Sliders](https://www.geeksforgeeks.org/matplotlib-slider-widget/amp/)
 
-[spicy.integrate](https://cpge.frama.io/fiches-cpge/Python/%C3%89quation%20diff%C3%A9rentielle/0-Equation%20diff%C3%A9rentielle/)
+[Couleurs_matplotlib](https://matplotlib.org/stable/users/explain/colors/colormaps.html)
+
+[Spicy.integrate](https://cpge.frama.io/fiches-cpge/Python/%C3%89quation%20diff%C3%A9rentielle/0-Equation%20diff%C3%A9rentielle/)
 
 [Animation]( https://resteche.github.io/REsteche_blog/chaos%20theory/butterfly%20effect/python%20animation/2021/10/20/Lorenz_animation.html)
 
-[création_gif](https://www.developpez.net/forums/d1453508/autres-langages/python/calcul-scientifique/creer-gif-annime-pil/)
+[Création_gif](https://www.developpez.net/forums/d1453508/autres-langages/python/calcul-scientifique/creer-gif-annime-pil/)
 
 ###  <a name="calendrier"></a> Tableau de bord : 
 
