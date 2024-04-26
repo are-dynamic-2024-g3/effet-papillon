@@ -132,7 +132,7 @@ plt.show()
 
 ![Capture d’écran_14-4-2024_131036_localhost](https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160217704/6d5ae939-d231-4c2d-b3bc-3405a3f40a79)
 
-````py
+```py
 fig, ax = plt.subplots(1, 3, figsize=(10, 3))
 
 ax[0].plot(t,x, color='r', alpha=1, linewidth=0.6)
