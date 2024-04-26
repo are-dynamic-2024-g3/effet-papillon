@@ -17,6 +17,9 @@ L'effet papillon, ou aussi appelé attracteur de Lorenz, a été decouvert par E
 
 # <a name="introduction"></a> Les bases de la théorie de l'attracteur de Lorenz   
 
+Pour commencer, vous devez connaître ce qu'est le concept du théorie du chaos et la dépendence des conditions initial. 
+
+
 Il y a trois points qui expliquent clairement les bases qui ont permis à la théorie de l’attracteur de Lorenz d’exister :
 
 - La dépendance sensible aux conditions initiales
@@ -33,22 +36,25 @@ Ainsi, la conséquence qui va s’en suivre, c’est qu’il n’y aura jamais d
  ![billard](
  https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160217704/d2a946f3-61cc-41fe-bf37-532a94e387ea)
 
- Comme il n’a suffi que d’un tout petit écart au moment de la frappe pour obtenir un résultat totalement différent, on dit que le jeu du billard est un système chaotique.
+Comme il n’a suffi que d’un tout petit écart au moment de la frappe pour obtenir un résultat totalement différent, on dit que le jeu du billard est un système chaotique.
+
+En résumé, si deux états presque identiques, ils évolueront vers des états radicelement différent après les avoirs itérés à travers une fonction chaotique. 
  
- Ici, on a un exemple assez générale de l’attracteur de Lorenz, passons maintenant à une explication plus « scientifique ».
+Ici, on a un exemple assez générale de l’attracteur de Lorenz, passons maintenant à une explication plus « scientifique ».
 
 # <a name="équations"></a>  Les Equations et éléments à prendre en compte
 
 <img width="273" alt="Capture d'écran 2024-03-08 094334" src="https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160217704/f453ed7e-c933-479c-b1d9-5f996019c8a0">
 
-x, y, z : Représentent un point d'intérêt dans l'espace tridimensionnel, décrivant la position à un moment donné.
-σ, ρ, β : Ces éléments numériques définissent l'attracteur de Lorenz, modulant les trajectoires et influençant la sensibilité aux conditions initiales
+x, y, z :, x, y et z sont 3 variables, x représente l'écoulement convectif sur l'espace étudié, y et z sont les varation de température horizontal et vertical.  
+σ, ρ, β : Ces éléments numériques sont les paramètre de l'attracteur de Lorenz, modulant les trajectoires et influençant la sensibilité aux conditions initiales. σ représents [le nombre de Pandtl](https://fr.wikipedia.org/wiki/Nombre_de_Prandtl). ρ représente la différence de témpérature entre le point le plus haut et le plus bas de l'atmosphère et β represente le rapport de la largeur à la hauteur du plan de l'atmosphère étudiés. 
 
 - Ici, ce qu'il faut comprendre, c'est que les équations données représentent une forme géometrique complexe de l'attracteur de lorenz, ou plus précisément le comportement "chaotique" d'un système dynamique en trois dimensions.
 - Les variables x, y, z, représentent un point d'intérêt dans l'espace en question, décrivant la position de ce point à un moment donné.
 - σ, ρ, β, représentent les trajectoires et influencent la sensibilité aux conditions initiales, ce sont donc ces éléments là qui vont nous interesser car c'est selon ces variables , que les conditions initiales se définissent, et font qu'on obtienne des resultats totalement différents à la fin. 
 
 Pour vous expliquer cette partie un peu plus en detail, nous allons la modeliser.
+
 
 #  <a name="modélisation"></a> Comment modéliser le phénomène étudié 
 
