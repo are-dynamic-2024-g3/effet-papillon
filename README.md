@@ -147,6 +147,8 @@ nous avons réalisé une capture vidéo, il suffit de cliquer sur ce fichier.
 
 [comprendre la théorie](https://couleur-science.eu/?d=717abd--cest-quoi-un-attracteur-de-lorenzun-systeme-chaotique)
 
+[comprendre la théorie en détail](https://links.uwaterloo.ca/pmath370w14/PMATH370/lorenz%20Latex.pdf) 
+
 [sliders](https://www.geeksforgeeks.org/matplotlib-slider-widget/amp/)
 
 [couleurs_matplotlib](https://matplotlib.org/stable/users/explain/colors/colormaps.html)
