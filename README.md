@@ -116,8 +116,8 @@ z = solution[:, 2]
 
 - Transposer les résultats dans un graphique.
 - Observer et analyser la forme résultante de l'Attracteur de Lorenz.
-
- 
+- Observer l'évolution des conditions initiales x,y,z -> rajouter des graphiques : le temps en fonction de x,y,z respectivement.
+  
 ```py
 ax = plt.figure().add_subplot(projection='3d')
 ax.scatter(x, y, z,s = 2)
@@ -131,6 +131,28 @@ plt.show()
 ```
 
 ![Capture d’écran_14-4-2024_131036_localhost](https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160217704/6d5ae939-d231-4c2d-b3bc-3405a3f40a79)
+
+````py
+fig, ax = plt.subplots(1, 3, figsize=(10, 3))
+
+ax[0].plot(t,x, color='r', alpha=1, linewidth=0.6)
+ax[0].set_xlabel("TIME Axis")
+ax[0].set_ylabel("X Axis")
+
+ax[1].plot(t,y, color='b', alpha=1, linewidth=0.6)
+ax[1].set_xlabel("TIME Axis")
+ax[1].set_ylabel("Y Axis")
+
+
+ax[2].plot(t,z, color='g', alpha=1, linewidth=0.6)
+ax[2].set_xlabel("TIME Axis")
+ax[2].set_ylabel("Z Axis")
+
+plt.show()
+```
+
+
+![Capture d’écran_26-4-2024_10339_localhost](https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160217704/a72b304b-5716-4e13-8ff5-baf5d0cdb4b9)
 
 
 # <a name="animation"></a> Dépendance des paramètres du système/des conditions initiales 
