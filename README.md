@@ -204,4 +204,6 @@ nous avons réalisé une capture vidéo, il suffit de cliquer sur ce fichier.
 * SEANCE 6 : Nous avons rajouter des liens de racourcis dans le site pour accéder aux paragraphes plus rapidement, nous avons fait une recherche par rapport aux thèmes qu’on peut utiliser pour le site, et tester differents thèmes.
 
 * SEANCE 7 :  Nous avons rajouté des liens de racourcis dans le site pour accéder à ces derniers plus rapidement, et avons rajouté un fichier mp4 pour la vidéo sur les sliders.
+* 
+* SEANCE 8 : Nous avons fait des recherches plus détaillée sur les paramètres du système de Lorenz afin de bien expliquer le comportement de ces derniers lors du changement en fonction du temps et leurs influences sur la trajectoire. Nous avons rajouté un code pour les graphiques qui représentent les conditions initiales en focntion du temps.
 
