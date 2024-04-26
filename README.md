@@ -116,7 +116,7 @@ z = solution[:, 2]
 
 - Transposer les résultats dans un graphique.
 - Observer et analyser la forme résultante de l'Attracteur de Lorenz.
-- Observer l'évolution des conditions initiales x,y,z -> rajouter des graphiques : le temps en fonction de x,y,z respectivement.
+- Observer l'évolution des conditions initiales x,y,z en fonction du temps.
   
 ```py
 ax = plt.figure().add_subplot(projection='3d')
