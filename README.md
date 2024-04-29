@@ -195,7 +195,8 @@ Pour rho = 20, bien que les orbites vertes et violets montrent toujours des comp
 
 Pour rho = 27, les graphiques de Lorenz révèlent clairement des signes de chaos. Les orbites vertes et violete montrent des trajectoires nettement différents sur le plan x-z et au fil du temps. Ces résultats sont cohérents avec une valeur de rho située dans une région où le système exhibe clairement un comportement chaotique.
 
- 
+le paramètre rho joue un rôle crucial dans le comportement des systèmes décrits par l'équation de Lorenz. Des valeurs plus basses de rho sont associées à la stabilité et à la prédictibilité, tandis que des valeurs plus élevées peuvent engendrer du chaos et une sensibilité accrue aux conditions initiales. On peut en déduire pareillement pour beta et sigma. *Ces conclusions soulignent la complexité des systèmes dynamiques non linéaires et mettent en évidence l'importance de bien comprendre les interactions entre les paramètres pour prédire avec précision le comportement à long terme du système.*
+
 ###  <a name="ressources"></a> Bibiliographie : 
 
 [Comprendre la théorie](https://couleur-science.eu/?d=717abd--cest-quoi-un-attracteur-de-lorenzun-systeme-chaotique)
