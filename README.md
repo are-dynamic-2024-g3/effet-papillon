@@ -162,7 +162,6 @@ plt.show()
 # <a name="animation"></a> Dépendance des paramètres du système/des conditions initiales 
 
 Ici on retrouve les sliders effectués qui permettent de modifier les paramètres du systèmes de Lorenz ainsi que les conditions initiales manuellement pour mieux voir la différence dans la trajectoire de l'attracteur de lorenz.
-nous avons réalisé une capture vidéo, il suffit de cliquer sur ce fichier.
 
 ##### **beta slider** 
 [![](beta slider png.png)]( https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160218534/bfac7989-f715-4363-b5ee-5d940a32acca)
@@ -172,6 +171,16 @@ nous avons réalisé une capture vidéo, il suffit de cliquer sur ce fichier.
 
 ##### **sigma slider** 
 [![](sigma slider png.png)](https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160218534/8bec67b9-86d6-4b76-8d34-5cce2c719ca5)
+
+
+Vous avez pu voir à quel point les trajectoires changent en fonctions des conditions initiales, comment le graphique change de forme. Mais voyons en détail un exemple : 
+
+## Interprétation graphique de l'équation de Lorenz et l'influence de rho 
+
+Les graphiques suivants utilisent les conditions initiales sigma = 10, beta = 8/3, temps = 60 secondes, seul rho est modifié. 
+
+On utilise 2 points de départs légérement différents, un en violet (0, 1, 0) et un en vert (0, 1.01, 0). 
+
 
 
  
