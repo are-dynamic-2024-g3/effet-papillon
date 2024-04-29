@@ -181,7 +181,14 @@ Les graphiques suivants utilisent les conditions initiales sigma = 10, beta = 8/
 
 On utilise 2 points de départs légérement différents, un en violet (0, 1, 0) et un en vert (0, 1.01, 0). 
 
+[
+![rho = 10](https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160218534/41efb3d0-e4b4-4e1d-b6bc-4eca6cf5c3fe)
+](url)
 
+Les orbites verts et violets semblent se comporter de manière similaire au fil du temps; leurs trajectoires sont très similaires. Par conséquent, aucun chaos n'est présent dans cette équation. 
+
+
+ 
 
  
 ###  <a name="ressources"></a> Bibiliographie : 
