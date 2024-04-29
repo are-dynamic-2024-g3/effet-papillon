@@ -187,8 +187,13 @@ On utilise 2 points de départs légérement différents, un en violet (0, 1, 0)
 
 Les orbites verts et violets semblent se comporter de manière similaire au fil du temps; leurs trajectoires sont très similaires. Par conséquent, aucun chaos n'est présent dans cette équation. 
 
+![rho = 20](https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160218534/28128884-f54d-45e4-a55f-2380212a3942)] 
 
- 
+Pour rho = 10, bien que les orbites vertes et violets montrent toujours des comportements similaires sur le plan x-z et au fil du temps, des signes de sensiblité aux conditions initiales commencent à apparaître. Ces résultats sont cohérents avec une valeurs de rho située dans une région où le système montre des signes de transitions vers le chaos. 
+
+![rho = 27](https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160218534/bdc1fb23-7e4f-432d-9c96-6187a8f59d5e)
+
+Pour rho = 27, les graphiques de Lorenz révèlent clairement des signes de chaos. Les orbites vertes et violete montrent des trajectoires nettement différents sur le plan x-z et au fil du temps. Ces résultats sont cohérents avec une valeur de rho située dans une région où le système exhibe clairement un comportement chaotique.
 
  
 ###  <a name="ressources"></a> Bibiliographie : 
