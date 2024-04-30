@@ -8,6 +8,7 @@ Liens vers les titres :
 **[Les Equations et éléments à prendre en compte](#équations)|**
 **[Comment modéliser le phénomène étudié](#modélisation)|**
 **[Dépendance des paramètres du système/des conditions initiales ](#animation)|**
+**[Exemple : influence de ρ pour démontrer la dépendance du systèmes sur les conditions initiales](#exemple)|**
 **[Bibiliographie](#ressources)|**
 **[Tableau de bord](#calendrier)|**
 
@@ -175,7 +176,7 @@ Ici on retrouve les sliders effectués qui permettent de modifier les paramètre
 
 Vous avez pu voir à quel point les trajectoires changent en fonctions des conditions initiales, comment le graphique change de forme. Mais voyons en détail un exemple : 
 
-## Exemple : influence de ρ pour démontrer la dépendance du systèmes sur les conditions initiales
+## <a name="exemple"></a>Exemple : influence de ρ pour démontrer la dépendance du systèmes sur les conditions initiales
 
 Les graphiques suivants utilisent les conditions initiales sigma = 10, beta = 8/3, temps = 60 secondes, seul rho est modifié. 
 
