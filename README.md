@@ -12,9 +12,9 @@ Liens vers les titres :
 **[Bibiliographie](#ressources)|**
 **[Tableau de bord](#calendrier)|**
 
-L'effet papillon, ou aussi appelé attracteur de Lorenz, a été decouvert par Edward Lorenz, météorologue et mathématicien. En 1963, il développait une simulation des conditions atmosphériques avec 12 variables, et il remarque que la plus minuscule des différences dans les conditions initiales changeaient grandement les résultats. 
+L'effet papillon, ou aussi appelé attracteur de Lorenz, a été découvert par Edward Lorenz, météorologue et mathématicien. En 1963, il développait une simulation des conditions atmosphériques avec 12 variables, et il remarque que la plus minuscule des différences dans les conditions initiales changeaient grandement les résultats. 
 
-Il simplifia alors sa simulation pour n'avoir que 3 varibales tout en conservant cette dépendance sensible aux conditions initiales. Ce modèle simplifié décrit les cycles de convection dans l'atmosphère, qui est désormait plus connu sous le nom de *Système de Lorenz*. 
+Il simplifia alors sa simulation pour n'avoir que 3 variales tout en conservant cette dépendance sensible aux conditions initiales. Ce modèle simplifié décrit les cycles de convection dans l'atmosphère, qui est désormait plus connu sous le nom de *Système de Lorenz*. 
 
 Ses recherches sont basées sur un principe fondamental, la dépendance sensible aux conditions initiales dans un système dynamique non linéaire.
 
@@ -22,7 +22,7 @@ Ses recherches sont basées sur un principe fondamental, la dépendance sensible
 
 # <a name="introduction"></a> Les bases de la théorie de l'attracteur de Lorenz   
 
-Pour commencer, vous devez connaître ce qu'est le concept du théorie du chaos et la dépendence des conditions initial. 
+Pour commencer, vous devez connaître ce qu'est le concept de la théorie du chaos et la dépendence des conditions initiales. 
 
 
 Il y a trois points qui expliquent clairement les bases qui ont permis à la théorie de l’attracteur de Lorenz d’exister :
@@ -43,22 +43,22 @@ Ainsi, la conséquence qui va s’en suivre, c’est qu’il n’y aura jamais d
 
 Comme il n’a suffi que d’un tout petit écart au moment de la frappe pour obtenir un résultat totalement différent, on dit que le jeu du billard est un système chaotique.
 
-En résumé, si deux états presque identiques, ils évolueront vers des états radicelement différent après les avoirs itérés à travers une fonction chaotique. 
+En résumé, si on a deux états presque identiques, ils évolueront vers des états radicalement différent après les avoir itérés à travers une fonction chaotique. 
  
-Ici, on a un exemple assez générale de l’attracteur de Lorenz, passons maintenant à une explication plus « scientifique ».
+Ici, on a un exemple assez général de l’attracteur de Lorenz, passons maintenant à une explication plus « scientifique ».
 
 # <a name="équations"></a>  Les Equations et éléments à prendre en compte
 
 <img width="273" alt="Capture d'écran 2024-03-08 094334" src="https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160217704/f453ed7e-c933-479c-b1d9-5f996019c8a0">
 
-x, y, z :, x, y et z sont 3 variables, x représente l'écoulement convectif sur l'espace étudié, y et z sont les varation de température horizontal et vertical.  
-σ, ρ, β : Ces éléments numériques sont les paramètre de l'attracteur de Lorenz, modulant les trajectoires et influençant la sensibilité aux conditions initiales. σ représents [le nombre de Pandtl](https://fr.wikipedia.org/wiki/Nombre_de_Prandtl). ρ représente la différence de témpérature entre le point le plus haut et le plus bas de l'atmosphère et β represente le rapport de la largeur à la hauteur du plan de l'atmosphère étudiés. 
+x, y, z :, x, y et z sont 3 variables, x représente l'écoulement convectif sur l'espace étudié, y et z sont les variation de température horizontale et verticale.  
+σ, ρ, β : Ces éléments numériques sont les paramètres de l'attracteur de Lorenz, modulant les trajectoires et influençant la sensibilité aux conditions initiales. σ représents [le nombre de Pandtl](https://fr.wikipedia.org/wiki/Nombre_de_Prandtl). ρ représente la différence de témpérature entre le point le plus haut et le plus bas de l'atmosphère et β represente le rapport de la largeur à la hauteur du plan de l'atmosphère étudiés. 
 
-- Ici, ce qu'il faut comprendre, c'est que les équations données représentent une forme géometrique complexe de l'attracteur de lorenz, ou plus précisément le comportement "chaotique" d'un système dynamique en trois dimensions.
-- Les variables x, y, z, représentent un point d'intérêt dans l'espace en question, décrivant la position de ce point à un moment donné.
-- σ, ρ, β, représentent les trajectoires et influencent la sensibilité aux conditions initiales, ce sont donc ces éléments là qui vont nous interesser car c'est selon ces variables , que les conditions initiales se définissent, et font qu'on obtienne des resultats totalement différents à la fin. 
+- Ici, ce qu'il faut comprendre, c'est que les équations données représentent une forme géometrique complexe de l'attracteur de lorenz, ou plus précisément, le comportement "chaotique" d'un système dynamique en trois dimensions.
+- Les variables x, y et z, représentent un point d'intérêt dans l'espace en question, décrivant la position de ce point à un moment donné.
+- σ, ρ et β, représentent les trajectoires et influencent la sensibilité aux conditions initiales, ce sont donc ces éléments là qui vont nous intéresser car c'est selon ces variables que les conditions initiales se définissent et font qu'on obtienne des résultats totalement différents à la fin. 
 
-Pour vous expliquer cette partie un peu plus en detail, nous allons la modeliser.
+Pour vous expliquer cette partie un peu plus en detail, nous allons la modéliser.
 
 
 #  <a name="modélisation"></a> Comment modéliser le phénomène étudié 
@@ -162,41 +162,41 @@ plt.show()
 
 # <a name="animation"></a> Dépendance des paramètres du système/des conditions initiales 
 
-Ici on retrouve les sliders effectués qui permettent de modifier les paramètres du systèmes de Lorenz ainsi que les conditions initiales manuellement pour mieux voir la différence dans la trajectoire de l'attracteur de lorenz.
+Ici on retrouve les sliders effectués qui permettent de modifier les paramètres du système de Lorenz ainsi que les conditions initiales manuellement pour mieux voir la différence dans la trajectoire de l'attracteur de lorenz.
 
-##### **beta slider** 
+##### **β slider** 
 [![](beta slider png.png)]( https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160218534/bfac7989-f715-4363-b5ee-5d940a32acca)
 
-##### **rho slider** 
+##### **ρ slider** 
 [![](rho slider png.png)](https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160218534/1224b559-0817-4ea0-b12b-bd570d5aa1b9)
 
-##### **sigma slider** 
+##### **σ slider** 
 [![](sigma slider png.png)](https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160218534/8bec67b9-86d6-4b76-8d34-5cce2c719ca5)
 
 
-Vous avez pu voir à quel point les trajectoires changent en fonctions des conditions initiales, comment le graphique change de forme. Mais voyons en détail un exemple : 
+Vous avez pu voir à quel point les trajectoires changent en fonction des conditions initiales, comment le graphique change de forme. Mais voyons en détails un exemple : 
 
 ## <a name="exemple"></a>Exemple : influence de ρ pour démontrer la dépendance du systèmes sur les conditions initiales
 
-Les graphiques suivants utilisent les conditions initiales sigma = 10, beta = 8/3, temps = 60 secondes, seul rho est modifié. 
+Les graphiques suivants utilisent les conditions initiales σ = 10, β = 8/3, temps = 60 secondes, seul rho est modifié. 
 
-On utilise 2 points de départs légérement différents, un en violet (0, 1, 0) et un en vert (0, 1.01, 0). 
+On utilise 2 points de départs légèrement différents, un en violet (0, 1, 0) et un en vert (0, 1.01, 0). 
 
-[
+
 ![rho = 10](https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160218534/41efb3d0-e4b4-4e1d-b6bc-4eca6cf5c3fe)
-](url)
+
 
 Pour ρ = 10, les orbites verts et violets semblent se comporter de manière similaire au fil du temps; leurs trajectoires sont très similaires. Par conséquent, aucun chaos n'est présent dans cette équation. 
 
 ![rho = 20](https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160218534/28128884-f54d-45e4-a55f-2380212a3942)] 
 
-Pour ρ = 20, bien que les orbites vertes et violets montrent toujours des comportements similaires sur le plan x-z et au fil du temps, des signes de sensiblité aux conditions initiales commencent à apparaître. Ces résultats sont cohérents avec une valeurs de rho située dans une région où le système montre des signes de transitions vers le chaos. 
+Pour ρ = 20, bien que les orbites vertes et violets montrent toujours des comportements similaires sur le plan x-z et au fil du temps, des signes de sensiblité aux conditions initiales commencent à apparaître. Ces résultats sont cohérents avec une valeurs de ρ située dans une région où le système montre des signes de transitions vers le chaos. 
 
 ![rho = 27](https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160218534/bdc1fb23-7e4f-432d-9c96-6187a8f59d5e)
 
-Pour ρ = 27, les graphiques de Lorenz révèlent clairement des signes de chaos. Les orbites vertes et violete montrent des trajectoires nettement différents sur le plan x-z et au fil du temps. Ces résultats sont cohérents avec une valeur de rho située dans une région où le système exhibe clairement un comportement chaotique.
+Pour ρ = 27, les graphiques de Lorenz révèlent clairement des signes de chaos. Les orbites vertes et violete montrent des trajectoires nettement différents sur le plan x-z et au fil du temps. Ces résultats sont cohérents avec une valeur de ρ située dans une région où le système exhibe clairement un comportement chaotique.
 
-Ici, nous venons de voir que le paramètre ρ joue un rôle crucial dans le comportement des systèmes décrits par l'équation de Lorenz. Des valeurs plus basses de rho sont associées à la stabilité et à la prédictibilité, tandis que des valeurs plus élevées peuvent engendrer du chaos et une sensibilité accrue aux conditions initiales. On peut en déduire pareillement pour β et σ (mais ça serai trop long). ***Ces conclusions soulignent la complexité des systèmes dynamiques non linéaires et mettent en évidence l'importance de bien comprendre les interactions entre les paramètres pour prédire avec précision le comportement à long terme du système.***
+Ici, nous venons de voir que le paramètre ρ joue un rôle crucial dans le comportement des systèmes décrits par l'équation de Lorenz. Des valeurs plus basses de ρ sont associées à la stabilité et à la prédictibilité, tandis que des valeurs plus élevées peuvent engendrer du chaos et une sensibilité accrue aux conditions initiales. On peut en déduire pareillement pour β et σ (mais ça serait trop long). ***Ces conclusions soulignent la complexité des systèmes dynamiques non linéaires et mettent en évidence l'importance de bien comprendre les interactions entre les paramètres pour prédire avec précision le comportement à long terme du système.***
 
 ###  <a name="ressources"></a> Bibiliographie : 
 
