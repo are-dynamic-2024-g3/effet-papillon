@@ -12,9 +12,9 @@ Liens vers les titres :
 **[Bibiliographie](#ressources)|**
 **[Tableau de bord](#calendrier)|**
 
-L'effet papillon, ou aussi appelé attracteur de Lorenz, a été découvert par Edward Lorenz, météorologue et mathématicien. En 1963, il développait une simulation des conditions atmosphériques avec 12 variables, et il remarque que la plus minuscule des différences dans les conditions initiales changeaient grandement les résultats. 
+L'effet papillon, ou aussi appelé attracteur de Lorenz, a été découvert par Edward Lorenz, météorologue et mathématicien. En 1963, il développait une simulation des conditions atmosphériques avec 12 variables, et il remarque que la plus minuscule des différences dans les conditions initiales changeait grandement les résultats. 
 
-Il simplifia alors sa simulation pour n'avoir que 3 variales tout en conservant cette dépendance sensible aux conditions initiales. Ce modèle simplifié décrit les cycles de convection dans l'atmosphère, qui est désormait plus connu sous le nom de *Système de Lorenz*. 
+Il simplifia alors sa simulation pour n'avoir que 3 variables tout en conservant cette dépendance sensible aux conditions initiales. Ce modèle simplifié décrit les cycles de convection dans l'atmosphère, qui est désormais plus connu sous le nom de *Système de Lorenz*. 
 
 Ses recherches sont basées sur un principe fondamental, la dépendance sensible aux conditions initiales dans un système dynamique non linéaire.
 
