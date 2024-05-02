@@ -246,8 +246,8 @@ Vous avez pu voir à quel point les trajectoires changent en fonction des condit
 
 ## <a name="exemple"></a>Exemple : influence de ρ pour démontrer la dépendance du systèmes sur les conditions initiales
 
+Pour être plus précis, on utilise 2 sous graphiques, un plan XZ et un plan X en fonction du temps. 
 Les graphiques suivants utilisent les conditions initiales σ = 10, β = 8/3, temps = 60 secondes, seul rho est modifié. 
-
 On utilise 2 points de départs légèrement différents, un en violet (0, 1, 0) et un en vert (0, 1.01, 0). 
 
 
