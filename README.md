@@ -226,7 +226,7 @@ def update(val):
 s_sigma.on_changed(update)
 s_rho.on_changed(update)
 s_beta.on_changed(update)
-```py
+```
 
 - À chaque modification de la valeur d'un slider, la fonction update est appelée pour recalculer les valeurs de x, y et z avec les nouveaux paramètres sigma, rho et beta.
 - Ensuite, le graphique est mis à jour avec les nouvelles valeurs.
