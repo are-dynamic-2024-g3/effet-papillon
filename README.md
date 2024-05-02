@@ -164,6 +164,74 @@ plt.show()
 
 Ici on retrouve les sliders effectués qui permettent de modifier les paramètres du système de Lorenz ainsi que les conditions initiales manuellement pour mieux voir la différence dans la trajectoire de l'attracteur de lorenz.
 
+***Bibliothèques Utilisées :***
+- numpy: Utilisée pour la manipulation efficace des tableaux et des opérations mathématiques.
+- matplotlib.pyplot: Utilisée pour créer des graphiques et des visualisations.
+- matplotlib.widgets.Slider: Utilisée pour créer des sliders interactifs.
+- scipy.integrate.odeint: Utilisée pour résoudre les équations différentielles.
+
+```py
+import numpy as np
+import matplotlib.pyplot as plt
+from matplotlib.widgets import Slider
+from scipy.integrate import odeint
+```
+
+***configuration des slides*** 
+- Trois sliders interactifs sont créés pour ajuster les paramètres du système de Lorenz : σ, ρ et β.
+- Chaque slider est associé à un axe spécifique dans la figure.
+
+```py
+ax_sigma = plt.axes([0.25, 0.02, 0.65, 0.03], facecolor='goldenrod')
+ax_rho = plt.axes([0.25, 0.06, 0.65, 0.03], facecolor='goldenrod')
+ax_beta = plt.axes([0.25, 0.1, 0.65, 0.03], facecolor='goldenrod')
+
+sigma_initial = 8
+rho_initial = 40
+beta_initial = 2.667
+
+s_sigma = Slider(ax_sigma, 'Sigma', 0.1, 50.0, valinit=sigma_initial)
+s_rho = Slider(ax_rho, 'Rho', 0.1, 50.0, valinit=rho_initial)
+s_beta = Slider(ax_beta, 'Beta', 0.1, 10.0, valinit=beta_initial)
+```
+- Les valeurs minimales et maximales des sliders sont fixées pour chaque paramètre.
+- La valeur initiale de chaque slider est définie pour correspondre aux valeurs initiales des paramètres.
+
+***Mise à jour des Sliders :***
+- Lorsque la valeur de l'un des sliders est modifiée, la fonction update est appelée pour recalculer les valeurs des variables x, y et z en fonction des nouveaux paramètres.
+
+```py
+def update(val):
+    sigma = s_sigma.val
+    rho = s_rho.val
+    beta = s_beta.val
+
+    # Recalcul des valeurs de x, y, z avec les nouveaux paramètres
+    solution = odeint(lorenz, etat_initial, t, args=(sigma, rho, beta))
+    x = solution[:, 0]
+    y = solution[:, 1]
+    z = solution[:, 2]
+
+    # Mise à jour du graphique avec les nouvelles données
+    ax.clear()
+    ax.scatter(x, y, z, s=2)
+    ax.plot(x, y, z, color='r')
+    ax.set_xlabel("Axe X")
+    ax.set_ylabel("Axe Y")
+    ax.set_zlabel("Axe Z")
+    ax.set_title("Attracteur de Lorenz")
+    plt.draw()
+
+# Ajout des fonctions de mise à jour aux sliders
+s_sigma.on_changed(update)
+s_rho.on_changed(update)
+s_beta.on_changed(update)
+```py
+
+- À chaque modification de la valeur d'un slider, la fonction update est appelée pour recalculer les valeurs de x, y et z avec les nouveaux paramètres sigma, rho et beta.
+- Ensuite, le graphique est mis à jour avec les nouvelles valeurs.
+
+
 ##### **β slider** 
 [![](beta slider png.png)]( https://github.com/are-dynamic-2024-g3/effet-papillon.github.io/assets/160218534/bfac7989-f715-4363-b5ee-5d940a32acca)
 
